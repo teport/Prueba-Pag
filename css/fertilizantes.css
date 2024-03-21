@@ -9,7 +9,7 @@ header{
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: url(img/fuggggg.jpg);
+  background: url(../img/fuggggg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,7 +166,7 @@ justify-content: space-between;
 }
 
 .agro-3{
-  background: url(img/asesoriass.jpg);
+  background: url(../img/asesoriass.jpg);
   display: none;
   background-position: center;
   background-repeat: no-repeat;
