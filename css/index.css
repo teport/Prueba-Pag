@@ -290,7 +290,7 @@ box-shadow: 0.4px 0.7px 6px rgb(0, 0, 128);
 
 
 .card{
-background: url(/fotos/asesorai.png);
+background: url(../fotos/asesorai.png);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -572,7 +572,7 @@ text-decoration: none;
 }
 
 .prin-img{
-  background: url(fotos/osva.JPG);
+  background: url(../fotos/osva.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -580,7 +580,7 @@ text-decoration: none;
 
 
 .prin-img-1{
-  background: url(img/WhatsApp\ Image\ 2023-02-01\ at\ 5.03.22\ PM.jpeg);
+  background: url(../fotos/asesorai.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
