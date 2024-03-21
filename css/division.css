@@ -17,7 +17,7 @@
 }
 
 .conteiner-fre{
-    background: url(fotos/fres.JPG);
+    background: url(../fotos/fres.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@
 }
 
 .conteiner-cal{
-    background: url(fotos/calera.JPG);
+    background: url(../fotos/calera.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,14 +49,14 @@
 }
 
 .conteiner-sis{
-    background: url(fotos/sistemaRiego.JPG);
+    background: url(../fotos/sistemaRiego.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .conteiner-lor{
-    background: url(fotos/lor.JPG);
+    background: url(../fotos/lor.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
