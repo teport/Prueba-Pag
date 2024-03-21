@@ -9,7 +9,7 @@ header{
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: url(img/asesoria-man.png);
+  background: url(../img/asesoria-man.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -170,7 +170,7 @@ justify-content: space-between;
 
 .imag-2{
   height: 50%;
-  background: url(img/herbicidas.jpg);
+  background: url(../img/herbicidas.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,7 +178,7 @@ justify-content: space-between;
 
 .imag-1{
   height: 50%;
-  background: url(img/agrooo.webp);
+  background: url(../img/agrooo.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,7 +186,7 @@ justify-content: space-between;
 
 .imag{
   height: 50%;
-  background: url(img/fuggggg.jpg);
+  background: url(../img/fuggggg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
