@@ -317,7 +317,7 @@ padding: 0rem 1.4rem;
 }
 
 .card2{
-background: url(/fotos/sistema.png);
+background: url(../fotos/sistema.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -341,7 +341,7 @@ padding:0rem 1rem;
 }
 
 .card3{
-background: url(/img/dron2.png);
+background: url(../img/dron2.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -363,7 +363,7 @@ font-size:clamp(1.2rem, 1.5vw, 3rem);
 }
 
 .card4{
-background: url(/img/ases.png);
+background: url(../img/ases.png);
 background-position: center;
 background-repeat: no-repeat;
 text-decoration:none;
@@ -529,7 +529,7 @@ text-decoration: none;
 }
 
 .prin-img{
-  background: url(fotos/osva.JPG);
+  background: url(../fotos/osva.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -537,7 +537,7 @@ text-decoration: none;
 
 
 .prin-img-1{
-  background: url(img/WhatsApp\ Image\ 2023-02-01\ at\ 5.03.22\ PM.jpeg);
+  background: url(../fotos/osva.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
