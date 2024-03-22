@@ -148,6 +148,7 @@ justify-content: space-between;
 }
 
 .prin-1, .prin-2{
+  border-radius:2rem;
   position: relative;
   background: rgb(0, 0, 128);
 }
