@@ -140,68 +140,49 @@ justify-content: space-between;
 
 /*Card Principal*/
 .prin{
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 1fr;
-grid-template-rows: 1fr;
-gap: .5rem;
-margin: 7rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
+  margin: 1rem;
+  gap: 2rem;
 }
 
-.prin-1{
-border: 1px solid;
+.prin-1, .prin-2{
+  position: relative;
+  background: rgb(0, 0, 128);
 }
 
-.prin-txt{
-background: rgb(0, 0, 128);
+.ima{
+  height: 30vh;
+  background: url(fotos/asesorai.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.prin-txt h1{
-text-align: center;
-font-size: clamp(4rem, 5vw, 5rem);
-padding: 2rem;
-color: rgb(255, 255, 255);
+.ima-2{
+  height: 30vh;
+  background: url(fotos/sistema-rie.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.prin-txt p{
-line-height: 2rem;
-text-align: center;
-padding: .5rem 1rem 2rem;
-font-size: clamp(1.5rem, 3.5vw, 1.8rem);
-color: white;
+.prin-1 h1, .prin-2 h1{
+  font-weight: 900;
+  letter-spacing: -1px;
+  text-align: center;
+  padding: 1rem;
+  font-size: clamp(2rem,4vw, 3rem);
+  color: white;
 }
 
-.prin-img{
-position: relative;
+.prin-1 p, .prin-2 p{
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  font-size: clamp(1rem, 3vw, 1.8rem);
 }
-
-.prin-img img{
-width: 100%;
-}
-
-.prin-img-1{
-position: relative;
-}
-
-.prin-img-1 img{
-width: 100%;
-}
-
-/*
-.prin-img{
-background: url(fotos/asesorai.JPG);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}*/
-/*
-.prin-img-1{
-background: url(fotos/asesoria-2.JPG);
-background-position: top center;
-background-repeat: no-repeat;
-background-size: cover;
-}*/
-
 /*Cards Servicios*/
 .general{
 position: relative;
@@ -509,81 +490,22 @@ text-decoration: none;
 
 /*Responsive dos cards*/
 @media screen and (width >= 650px) and (width <= 1800px) {
-
-
 .prin{
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 36rem);
+  grid-template-columns: repeat(1, 1fr);
 }
 
-.prin-img, .prin-img-1{
-  background-position: left;
-}
-
-.prin-img img{
-  display: none;
-}
-
-.prin-img-1 img{
-  display: none;
-}
-
-.prin-img{
-  background: url(../fotos/osva.JPG);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.prin-img-1{
-  background: url(../fotos/osva.JPG);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 }
 
 
 /*Responsive 4 cards*/
 @media screen and (width >= 1061px) {
 .prin{
-  grid-template-columns: 30%  19% 19% 30%;
-  grid-template-rows: 1fr;
+  margin: 3rem;
+  grid-template-columns: repeat(2, 1fr)
 }
 
-.prin-img img{
-  display: none;
-}
-
-.prin-img-1 img{
-  display: none;
-}
-
-
-.prin-txt h1{
-  text-align: left;
-}
-
-.prin-txt p{
-  text-align: left;
-  padding: 1rem 2.7rem;
-  line-height: 2.5rem;
-}
-
-.prin-img{
-  background: url(../fotos/osva.JPG);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.prin-img-1{
-  background: url(../fotos/asesorai.JPG);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.ima, .ima-2{
+  height: 50vh;
 }
 }
 
