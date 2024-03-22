@@ -154,7 +154,7 @@ justify-content: space-between;
 
 .ima{
   height: 30vh;
-  background: url(fotos/asesorai.JPG);
+  background: url(../fotos/asesorai.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,7 +162,7 @@ justify-content: space-between;
 
 .ima-2{
   height: 30vh;
-  background: url(fotos/sistema-rie.JPG);
+  background: url(../fotos/sistema-rie.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
