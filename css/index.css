@@ -148,7 +148,7 @@ justify-content: space-between;
 }
 
 .prin-1, .prin-2{
-  border-radius:2rem;
+  border-radius: 1rem;
   position: relative;
   background: rgb(0, 0, 128);
 }
@@ -159,6 +159,7 @@ justify-content: space-between;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius:1rem;
 }
 
 .ima-2{
@@ -167,6 +168,7 @@ justify-content: space-between;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius:1rem;
 }
 
 .prin-1 h1, .prin-2 h1{
