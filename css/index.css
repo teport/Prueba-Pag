@@ -144,6 +144,23 @@ justify-content: space-between;
 
 
 /*Card Principal*/
+
+.tit{
+  text-align: center;
+  margin: 8rem 1rem 0;
+}
+
+.tit h1{
+  font-weight: 900;
+  color: rgb(0, 0, 128);
+  font-size: clamp(3rem, 4vw, 4rem);
+}
+
+.tit small{
+  color: rgb(128, 128, 128);
+  font-size: clamp(1rem,3vw,1.5rem);
+}
+
 .prin{
   display: grid;
   grid-template-columns: 1fr;
@@ -508,7 +525,7 @@ text-decoration: none;
 /*Responsive 4 cards*/
 @media screen and (width >= 1061px) {
 .prin{
-  margin: 3rem;
+  margin: 4rem 5rem 3rem;
   grid-template-columns: repeat(2, 1fr)
 }
 
