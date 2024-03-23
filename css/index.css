@@ -232,7 +232,7 @@ scrollbar-width: none;
 }
 
 .snaps-inline > * {
-scroll-snap-align: center;
+scroll-snap-align: start;
 }
 
 .leftArrow{
