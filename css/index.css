@@ -536,6 +536,7 @@ text-decoration: none;
     grid-auto-columns:30rem;
     grid-template-rows:40rem;
     margin: 0;
+    padding-right: 2rem;
   }
 
  .card, .card2, .card3, .card4{ 
