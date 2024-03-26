@@ -2,72 +2,392 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.conteiner{
+
+header{
     width: 100%;
     height: 100vh;
+    overflow: hidden;
+    background: url(../fotos/fres.JPG);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  
+  .head{
+    background: rgba(228, 228, 228, 0);
+    z-index: 999;
+    position: relative;
+  }
+  
+  .head-1{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .nav{
+    position: absolute;
+    z-index: 999;
+  
+  }
+  
+  .nav-2{
+  position: absolute;
+  display: none;
+  opacity: 0;
+  }
+  
+  .logo{
+    max-width: 13rem;
+  }
+  
+  
+  
+  .nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .nav-list-2{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-list li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+  }
+  
+  .abrir-menu{
+    display: none;
+  }
+  
+  
+  .cerrar-menu{
+    display: none;
+  }
+  
+  .abrir-menu{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  .cerrar-menu{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background: rgba(255, 255, 255, 0);;
+  }
+  
+  .cerrar-menu img, .cerrar-menu img{
+    width: 2rem;
+  }
+  
+  .btn-img{
+    z-index: 999;
+    width: 2rem;
+  }
+  
+  /*Logo centrado*/
+  header .fav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vh;
+    z-index: 998;
+  }
+  
+  .logo-res{
+  width: clamp(10rem, 3vw, 15rem);
+  position: relative;
+  display: none;
+  }
+  
+  .equ{
+    z-index: 999;
+  display: flex;
+  padding:  1rem;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+.sucur-tit{
+    color: rgb(0, 0, 128);
+    font-size: clamp(3rem,5vw,4rem);
+    text-align: center;
+    padding: 1rem;
+    margin: 6rem 0 0;
+}
+
+.sucur-tit::after{
+    content: "";
+    width: 100%;
+    position: relative;
+    height: .2rem;
+    display: block;
+    bottom: .1rem;
+    background: rgb(0, 0, 128);
+}
+
+.sucur-gen{
+    margin: 0 1rem 1rem;
+    padding: 1rem;
+    background: rgba(212, 212, 212, 0.596);
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: .5rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3rem 1fr;
+    gap: 1rem;
 }
 
-.conteiner-1{
-    border: .1rem solid;
+.sucur-gen h2{
+    color: rgb(0, 0, 128);
+    font-size: clamp(2.5rem,3vw,3rem);
+    position: relative;
+    font-weight: 900;
 }
 
-.conteiner-fre{
+.sucur-img,.sucur-img-1,.sucur-img-2,.sucur-img-3{
     background: url(../fotos/fres.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    transition: .4s ease-in-out;
+    display: block;
 }
 
-.conteiner-fre h1, .conteiner-cal h1, .conteiner-sis h1, .conteiner-lor h1{
+.hor{
+    font-weight: 600;
+    color: rgb(0, 0, 128);
+    font-size: clamp(1.4rem,4vw,1.6rem);
+}
+
+.dir,.tel, .hor-txt{
+    padding-bottom: 1rem;
+    font-size: clamp(1.2rem, 3vw, 1.3rem);
+}
+
+.sucur-mapa{
     position: relative;
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 5rem;
+}
+
+.sucur-mapa iframe{
+    width: 100%;
+}
+
+@media screen and (min-width:750px){
+    .sucur-tit{
+        text-align: left;
+    }
+
+    .sucur-gen{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .sucur-gen h2:first-child, .sucur-gen h2:nth-child(5){
+        grid-column: 1/3;
+    }
+}
+
+@media screen and (min-width:1100px){
+    .sucur-gen{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .sucur-gen h2:first-child{
+        grid-column: 1/4;
+    }
+
+    .sucur-img{
+        background: url(../fotos/fres.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+
+    .sucur-img-1{
+        background: url(../fotos/lor.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+
+    .sucur-img-2{
+        background: url(../fotos/calera.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+
+    .sucur-img-3{
+        background: url(../fotos/sistemaRiego.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+}
+
+@media screen and (width <= 1061px){
+
+
+    .logo-res{
+      display: block;
+    }
+  
+    .intro-p{
+        line-height: 2.3rem;
+    }
+  
+    .abrir-menu,.cerrar-menu{
+      display: block;
+    }
+  
+    .abrir-menu{
+        position: relative;
+        
+    }
+  
+    .nav{
+      opacity: 0;
+      visibility: hidden;
+      display: none;
+    }
+  
+    .nav-2{
+    display: none;
+      opacity:0;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 1.6rem 2rem;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .2);
+      z-index: 999;
+      background: rgb(255, 255, 255);
+      height: 100vh;
+      visibility: hidden;
+    }
+  
+    .logo{
+        position: relative;
+        left: -3rem;
+        display: none;
+    }
+  
+    .nav-2.visible{
+      opacity: 20;
+      visibility: visible;
+      background: rgb(0, 0, 128);
+      height: 100vh;
+      z-index: 1;
+    }
+  
+    .nav-list-2{
+      flex-direction: column;
+      align-items: end;
+      gap: 10px;
+      position: relative;
+    }
+  
+    .nav-list-2 li a{
+      color: white;
+      text-decoration: none;
+      font-size: 2rem;
+    }
+  
+    .mapadiv{
+        width: 100%;
+        left: -10px;
+    }
+  }
+  
+  
+  .pie-pagina{
+    margin-top: 10rem;
+    width: 100%;
+    background: rgb(0, 0, 128);
+  }
+  
+  .pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+  .pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+  }
+  
+  .pie-pagina .grupo-1 .box h2{
     color: white;
-    background: rgba(151, 151, 151, 0.555);
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+  }
+  
+  .pie-pagina .grupo-1 .box p{
+    color: white;
+    margin-bottom: .8rem;
+  }
+  
+  
+  .pie-pagina .grupo-1 .red-social{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pie-pagina .grupo-1 .red-social a{
     text-decoration: none;
-}
-
-.conteiner-fre a, .conteiner-cal a {
-    text-decoration: none;     
-}
-
-.conteiner-cal{
-    background: url(../fotos/calera.JPG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-.conteiner-sis{
-    background: url(../fotos/sistemaRiego.JPG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.conteiner-lor{
-    background: url(../fotos/lor.JPG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media screen and (max-width:1000px) {
-    .conteiner{
-        grid-template-columns: 1fr;
+    color: white;
+    margin-left: 0;
+  }
+  
+  .pie-pagina .grupo-2{
+    background: rgb(1, 1, 59);
+    padding: 1rem .7rem;
+    text-align: center;
+    color: white;
+  } 
+  
+  .pie-pagina .grupo-2 small{
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+       grid-template-columns: 1fr;
     }
-
-    .conteiner-cal h1, .conteiner-fre h1, .conteiner-lor h1, .conteiner-sis h1{
-        font-size: 2rem;
-    }
-}
+  }
