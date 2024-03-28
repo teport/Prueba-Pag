@@ -330,11 +330,11 @@ justify-content: space-between;
   }
 
   .dron-1{
-    background: rgba(0, 0, 0, .2);
+    box-shadow: 1px 1px 4px rgb(0, 0, 128);
   }
 
   .dron-4{
-    background: rgba(0, 0, 0, .2);
+    box-shadow: 1px 1px 4px rgb(0, 0, 128);
   }
   
   .dron-4:nth-child(4){
