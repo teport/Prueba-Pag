@@ -253,7 +253,7 @@ justify-content: space-between;
   color: rgb(0,0,128);
   margin: 4rem;
   position: relative;
-  font-size: clamp(2rem,3vw +2rem,4rem);
+  font-size: clamp(2.8rem,3vw +2rem,4rem);
 }
 
 .txt-gen::after{
