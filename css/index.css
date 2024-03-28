@@ -168,7 +168,7 @@ justify-content: space-between;
 .tit h1{
   font-weight: 900;
   color: rgb(0, 0, 128);
-  font-size: clamp(2.7rem, 4vw, 4rem);
+  font-size: clamp(2.4rem, 4vw, 4rem);
 }
 
 .tit small{
