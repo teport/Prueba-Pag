@@ -248,11 +248,22 @@ justify-content: space-between;
   font-size: clamp(1.5rem, 3vw, 1.5rem);
 }
 
-.tit-gen{
-  font-size: clamp(3rem, 3vw, 5rem);
-  text-align: left;
-  padding: 1rem;
-  color: rgb(0, 0, 128);
+
+.txt-gen{
+  color: rgb(0,0,128);
+  margin: 4rem;
+  position: relative;
+  font-size: clamp(2rem,4vw,4rem);
+}
+
+.txt-gen::after{
+  content: "";
+  height: 4px;
+  width: 100%;
+  position: relative;
+  bottom: 1px;
+  background: rgb(0,0,128);
+  display: block;
 }
 
 .gen{
