@@ -201,6 +201,53 @@ justify-content: space-between;
     padding: 1rem;
 }
 
+
+
+.tipos{
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
+  row-gap: 1.5rem;
+  margin: 8rem 2rem;
+}
+
+.tipos-2{
+  background: rgba(0, 0, 128);
+  padding: 1rem 1rem 2rem;
+}
+
+.tipos-2 h1{
+  color: rgb(255, 255, 255);
+  font-size: clamp(3rem, 4vw + 1rem, 5rem);
+  padding: 1rem 1rem 0;
+}
+
+.tipos-2 h2{
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  font-size: clamp(2rem 3vw, 3rem);
+}
+
+.tipos-1{
+  box-shadow: 1px 1px 4px rgb(0, 0, 128);
+  color: rgb(0, 0, 128);
+}
+
+.tipos-1 h1{
+  font-size: clamp(3rem, 4vw, 5rem);
+  padding: 1rem;
+}
+
+.tipos-1 ul{
+  list-style: none;
+  padding: 1rem;
+}
+
+.tipos li{
+  padding: .3rem;
+  font-size: clamp(1.5rem, 3vw, 1.5rem);
+}
+
 .tit-gen{
   font-size: clamp(3rem, 3vw, 5rem);
   text-align: left;
