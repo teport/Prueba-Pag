@@ -106,14 +106,19 @@ header{
   }
   
   /*Logo centrado*/
-  header .fav{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50vh;
-    z-index: 998;
-  }
+header .fav{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vh;
+  z-index: 998;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-weight: 300;
+} 
   
   .logo-res{
   width: clamp(10rem, 3vw, 15rem);
