@@ -11,7 +11,7 @@ header{
     height: 100vh;
     overflow: hidden;
     background: url(../fotos/fres.JPG);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
