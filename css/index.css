@@ -444,7 +444,7 @@ transition: transform .2s;
 
 .mapadiv path{
 stroke: #000000;
-stroke-width:2px;
+stroke-width:4px;
 }
 
 .mapadiv .ags{
