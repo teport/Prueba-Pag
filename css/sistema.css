@@ -110,6 +110,11 @@ header{
     transform: translate(-50%, -50%);
     width: 50vh;
     z-index: 998;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: 300;
   }
   
   .logo-res{
