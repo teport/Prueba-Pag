@@ -236,7 +236,7 @@
       margin-top: 1rem;
       position: relative;
       height: 10rem;
-      background: url(fotos/tubos-de-pvc-1-1.jpg);
+      background: url(../fotos/tubos-de-pvc-1-1.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -246,7 +246,7 @@
       margin-top: 1rem;
       position: relative;
       height: 10rem;
-      background: url(fotos/gotero.jpg);
+      background: url(../fotos/gotero.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -256,7 +256,7 @@
       margin-top: 1rem;
       position: relative;
       height: 10rem;
-      background: url(fotos/filtros.jpg);
+      background: url(../fotos/filtros.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -266,7 +266,7 @@
       margin-top: 1rem;
       position: relative;
       height: 10rem;
-      background: url(fotos/concectores.jpg);
+      background: url(../fotos/concectores.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -276,7 +276,7 @@
       margin-top: 1rem;
       position: relative;
       height: 10rem;
-      background: url(fotos/valvulas.jpg);
+      background: url(../fotos/valvulas.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -286,7 +286,7 @@
       margin-top: 1rem;
       position: relative;
       height: 10rem;
-      background: url(fotos/controlador.jpg);
+      background: url(../fotos/controlador.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
