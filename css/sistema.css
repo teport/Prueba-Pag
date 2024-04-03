@@ -232,6 +232,65 @@
         font-size: clamp(1.5rem, 2.5vw, 2.8rem);
     }
 
+    .img-eq{
+      margin-top: 1rem;
+      position: relative;
+      height: 10rem;
+      background: url(fotos/tubos-de-pvc-1-1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+     .img-eq-1{
+      margin-top: 1rem;
+      position: relative;
+      height: 10rem;
+      background: url(fotos/gotero.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .img-eq-2{
+      margin-top: 1rem;
+      position: relative;
+      height: 10rem;
+      background: url(fotos/filtros.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .img-eq-3{
+      margin-top: 1rem;
+      position: relative;
+      height: 10rem;
+      background: url(fotos/concectores.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .img-eq-4{
+      margin-top: 1rem;
+      position: relative;
+      height: 10rem;
+      background: url(fotos/valvulas.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .img-eq-5{
+      margin-top: 1rem;
+      position: relative;
+      height: 10rem;
+      background: url(fotos/controlador.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
 @media screen and (min-width:767px) {
     .intro-son{
