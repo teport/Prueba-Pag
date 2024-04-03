@@ -327,6 +327,7 @@
 
     .equipos{
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
     }
 
     .equipos-tit:first-child{
