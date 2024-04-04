@@ -232,6 +232,12 @@
         font-size: clamp(1.5rem, 2.5vw, 2.8rem);
     }
 
+    .txt-eq p{
+      font-size: clamp(1rem, 1.5vw, 1.8rem);
+      padding: 1rem;
+    }
+
+
     .img-eq{
       margin-top: 1rem;
       position: relative;
@@ -338,6 +344,14 @@
 @media screen and (min-width:1024px){
     .intro-son{
         margin: 4rem;
+    }
+
+    .equipos{
+      margin: 0 2rem;
+    }
+
+    .img-eq, .img-eq-1, .img-eq-2, .img-eq-3, .img-eq-4, .img-eq-5{
+      max-height: 12rem;
     }
 
     .intro-3{
