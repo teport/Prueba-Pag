@@ -237,7 +237,11 @@
       padding: 1rem;
     }
 
+    .img-eq img{
+      width: 100%;
+    }
 
+    /*
     .img-eq{
       margin-top: 1rem;
       position: relative;
@@ -246,7 +250,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-    }
+    }*/
 
      .img-eq-1{
       margin-top: 1rem;
