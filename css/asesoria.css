@@ -196,7 +196,14 @@ justify-content: space-between;
   }
 
   .dat-img{
-    background: url(img/señor.jpg);
+    background: url(../img/señor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.dat-img-1{
+    background: url(../img/Persona-cultivando.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
