@@ -142,10 +142,7 @@ justify-content: space-between;
   }
 
   .ini-1{
-    background: url(../img/fondo.jfif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(0,0,128);
   }
 
   .ini-1 h1{
