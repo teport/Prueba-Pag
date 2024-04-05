@@ -105,19 +105,19 @@ opacity: 0;
 }
 
 /*Logo centrado*/
-header .fav{
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50vh;
-  z-index: 998;
-  width: 100%;
-  text-align: center;
-  font-size: clamp(1.5rem, 1vw + 1.5rem, 3rem);
-  color: rgb(255, 255, 255);
-  font-weight: 100;
-}
+  header .fav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vh;
+    z-index: 998;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: 300;
+  }
 
 .logo-res{
 width: clamp(10rem, 3vw, 15rem);
