@@ -234,7 +234,31 @@ justify-content: space-between;
     color: white;
     padding:1rem;
     border-radius: 1rem;
+     display: grid;
+  grid-template-rows:1fr 1fr;
+  gap: 1rem;
    }
+
+.ven-2-img{
+  background: url(https://atriainnovation.com/uploads/2023/11/man-farmer-standing-in-wheat-field-and-controlling-drone-technologies-in-agriculture-concept-scaled-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ven-2-img-1{
+  background: url(https://sotoser.com/wp-content/uploads/2023/07/Control-de-plagas-y-enfermedades-en-el-jardin-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ven-2-img-3{
+  background: url(https://mexico.infoagro.com/wp-content/uploads/2020/04/soil-row-crops.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
    .ven-2 h1{
     font-size: clamp(2rem, 1.5vw, 3rem);
