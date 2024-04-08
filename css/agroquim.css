@@ -137,6 +137,9 @@ align-items: center;
 justify-content: space-between;
 }
 
+main{
+    margin: 0 2rem;
+}
 
 .presen{
     display: grid;
