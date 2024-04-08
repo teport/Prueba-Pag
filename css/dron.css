@@ -11,7 +11,7 @@ header{
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: url(../img/dron.png);
+  background: url(img/dron.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,17 +108,17 @@ opacity: 0;
 
 /*Logo centrado*/
 header .fav{
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50vh;
   z-index: 998;
-  font-size: 2rem;
-  text-align: center;
   width: 100%;
-  color: white;
-  font-weight: 300;
+  text-align: center;
+  font-size: clamp(1.5rem, 1vw + 1.5rem, 3rem);
+  color: rgb(255, 255, 255);
+  font-weight: 100;
 }
 
 .logo-res{
@@ -135,248 +135,179 @@ align-items: center;
 justify-content: space-between;
 }
 
+
 .dron{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    text-align: center;
-    margin: 8rem 1rem;
+  background: #f1f4ff;
+  margin: 10vh 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+  gap: 2rem;
 }
 
 .dron-1{
-    color: rgb(0, 0, 128);
-}
-
-.dron-1 h1{
-    font-size: clamp(4rem, 6vw, 8rem);
-    font-weight: 500;
-
+  padding: 1rem;
 }
 
 .dron-1 h2{
-    font-size: clamp(2rem, 2.5vw, 3rem);
-    font-weight: 100;
-    padding: 1rem;
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  color: rgb(0, 0, 128);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.dron-1 p{
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 3rem);
 }
 
 .dron-2{
-    background: rgb(0, 0, 128);
-    color: white;
+  padding: 2rem 0;
 }
 
-.dron-2 h1{
-    font-size: clamp(3rem, 4vw, 5rem);
-    padding: 1rem 0;
-}
-
-.dron-2 p{
-    font-size: clamp(1.5rem, 2vw, 2rem);
-    padding: 1rem 1rem;
-    font-weight: 100;
-    padding: 1.5rem;
-}
-
-.dron-3{
-    background: rgb(0, 0, 128);
-    color: white;
-}
-
-.dron-3 h1{
-  font-size: clamp(3rem, 4vw, 5rem);
-    padding: 1rem 0;
-}
-
-.dron-3 ul{
-    list-style: none;
-}
-
-.dron-3 li{
-    padding: .5rem;
-    font-size: clamp(1.3rem, 3vw, 1.5rem);
-}
-
-.dron-4 h1{
-  font-size: clamp(3rem, 4.5vw, 4rem);
-    color: rgb(0, 0, 128);
-    padding: 1rem;
-}
-
-.dron-4 p{
-    font-size:clamp(1.4rem, 2vw, 2rem);
-    padding: 1rem;
-}
-
-
-
-.tipos{
-  display: grid;
+.dron-2 h2{
   text-align: center;
-  grid-template-columns: 1fr;
-  row-gap: 1.5rem;
-  margin: 8rem 2rem;
-}
-
-.tipos-2{
-  background: rgba(0, 0, 128);
-  padding: 1rem 1rem 2rem;
-}
-
-.tipos-2 h1{
-  color: rgb(255, 255, 255);
-  font-size: clamp(3rem, 4vw + 1rem, 5rem);
-  padding: 1rem 1rem 0;
-}
-
-.tipos-2 h2{
-  color: rgb(255, 255, 255);
-  font-weight: 100;
-  font-size: clamp(2rem 3vw, 3rem);
-}
-
-.tipos-1{
-  box-shadow: 1px 1px 4px rgb(0, 0, 128);
+  font-size: clamp(2.5rem, 3.5vw, 4rem);
   color: rgb(0, 0, 128);
+  padding-bottom:1rem;
 }
 
-.tipos-1 h1{
-  font-size: clamp(3rem, 4vw, 5rem);
-  padding: 1rem;
-}
-
-.tipos-1 ul{
+.dron-2 ul{
   list-style: none;
-  padding: 1rem;
-}
-
-.tipos li{
-  padding: .3rem;
-  font-size: clamp(1.5rem, 3vw, 1.5rem);
-}
-
-
-.txt-gen{
-  color: rgb(0,0,128);
-  margin: 4rem;
-  position: relative;
-  font-size: clamp(2.8rem, 5vw, 5rem);
-}
-
-.txt-gen::after{
-  content: "";
-  height: 4px;
-  width: 100%;
-  position: relative;
-  bottom: 1px;
-  background: rgb(0,0,128);
-  display: block;
-}
-
-.gen{
   display: grid;
-  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  text-align: center;
 }
 
-.tipos-suc{
+.dron-2 li{
+  box-shadow: 1px 1px 2px 1px rgb(0, 0, 128);
+  padding: 1rem;
+  margin: 0 1rem;
+  font-size: clamp(1.5rem, 2vw, 3rem);
+  background: #e5e8ff;
+}
+
+.caracteri{
+  margin: 0 1rem;
+}
+
+.carac{
   display: grid;
   grid-template-columns: repeat(1,1fr);
-  gap: 1rem;
-  margin: 1rem;
-}
-
-.tipos-suc-1{
-  box-shadow: 0px 0px 5px rgb(0, 0, 128);
-}
-
-.tipos-suc-1 h1{
-  font-size: clamp(2.4rem, 4vw, 3rem);
-  padding: 1rem 1rem 0;
-  color: rgb(0, 0, 128);
-  font-weight: 900;
-} 
-
-.tipos-suc-1 small{
-  font-size: clamp(.8rem, 2vw, 1.7rem);
-  padding: 0 1rem;
-}
-
-.tipos-suc-1 p{
-  padding: 1rem;
-}
-
-
-
-.sr-img{
-  margin: 3rem 1rem;
-  display: grid;
-  grid-template-rows: repeat(5,1fr);
+  grid-template-rows: 70vh;
+  grid-auto-rows: 70vh;
   gap: 3rem;
 }
 
-.img-1{
-  box-shadow: 1px 1px 10px rgb(123, 123, 123);
-  background: url(https://i0.wp.com/idc.apddrones.com/wp-content/uploads/2022/07/Diseno-sin-titulo-62.jpg?fit=800%2C400&ssl=1);
+.caracteri h1{
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  color: rgb(0, 0, 128);
+  margin-bottom: 2rem;
+}
+
+.carac section{
+  border-radius: .5rem;
+  box-shadow: 1px 1px 5px 1px rgb(145, 145, 145);
+}
+
+.carac-1{
+  background:linear-gradient(#f1f4ff00,#2118ff), url(https://aerialproductions.es/wp-content/uploads/2023/06/carga-drones-1024x610.jpg);
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
 }
 
-.img-2{
-  box-shadow: 1px 1px 10px rgb(123, 123, 123);
-  background: url(https://pulverizadron.com/wp-content/uploads/2022/09/drones-fumigacion-agricola-e1664512445600.png);
+.carac-1-1{
+  position: relative;
+  top: 75%;
+}
+
+.carac-1 h2{
+  font-size: 2.5rem;
+  color: white;
+}
+
+.carac-1 p{
+  color: white;
+}
+
+.carac-2{
+  background:url(https://droniteca.com/wp-content/uploads/2020/08/altura-y-distancia-maxima-drone.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.img-1:first-child{
-  grid-row: 1/4;
+.carac-2-1{
+  background-color: #1007fa;
+  margin: 1rem;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  border-radius: .5rem;
+  position: relative;
+  top: 60%;
 }
 
-.img-2:nth-child(2){
-  grid-row: 4/7;
+.carac-2-1 h2{
+  font-size: 2.5rem;
 }
 
-@media screen and (min-width: 700px) {
-  .dron{
-    grid-template-columns: repeat(2, 1fr);
-  }
+.carac-3{
+  background: url(https://umilesgroup.com/wp-content/uploads/2022/09/a-que-altura-puede-volar-un-dron.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .dron-1:first-child{
-    grid-column: 1/3;
-  }
+.carac-3-1{
+  position: relative;
+  top: 5%;
+  margin: 1rem;
+}
 
-  .dron-1{
-    box-shadow: 1px 1px 4px rgb(0, 0, 128);
-  }
+.carac-3-1 strong{
+  color: #0c06ac;
+}
 
-  .dron-4{
-    box-shadow: 1px 1px 4px rgb(0, 0, 128);
-  }
+.carac-3-1 h2{
+  font-size: 3rem;
+  color: #1007fa;
+}
+
+.carac-3-1 p{
+  color: #2118ff;
+}
+
+
+@media screen and (min-width:700px){
   
-  .dron-4:nth-child(4){
-    grid-column: 1/3;
+  main{
+    margin: 0 3rem;
   }
 
-  .tipos{
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1rem;
+  .dron-2 ul{
+    grid-template-columns: repeat(2,1fr);
   }
 
-  .tipos-2:first-child{
-    grid-column: 1/4;
+  .carac{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+  .carac{
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 0rem;
   }
 }
 
 
-@media screen and (min-width:1060px) {
-  .gen{
-    grid-template-rows: 1fr;
-      grid-template-columns: repeat(2, 1fr);
-  }
-}
 
 @media screen and (width <= 1061px){
-
 
   .logo-res{
     display: block;
