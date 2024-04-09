@@ -213,7 +213,7 @@ justify-content: space-between;
 }
 
 .carac-1{
-  background:linear-gradient(#f1f4ff00,#2118ff), url(https://aerialproductions.es/wp-content/uploads/2023/06/carga-drones-1024x610.jpg);
+  background:linear-gradient(#f1f4ff00,#000080), url(https://aerialproductions.es/wp-content/uploads/2023/06/carga-drones-1024x610.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -242,7 +242,7 @@ justify-content: space-between;
 }
 
 .carac-2-1{
-  background-color: #1007fa;
+  background-color: #000080;
   margin: 1rem;
   padding: 1rem;
   color: white;
