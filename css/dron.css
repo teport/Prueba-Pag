@@ -137,7 +137,7 @@ justify-content: space-between;
 
 
 .dron{
-  background: #f1f4ff;
+  background: rgba(151, 151, 151, 0.2);
   margin: 10vh 1rem;
   display: grid;
   grid-template-columns: 1fr;
