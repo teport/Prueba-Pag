@@ -411,6 +411,33 @@ padding: 1rem;
 font-size:clamp(1.2rem, 1.5vw, 3rem);
 }
 
+.card5{
+  background:linear-gradient(rgba(16, 16, 16, 0),rgba(0, 0, 128, 0.39)), url(../img/maiz1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  position: relative;
+  }
+  
+  
+  .card5 h2{
+  font-size:clamp(3rem, 4vw, 4.5rem);
+  text-decoration: none;
+  position: relative;
+  top: 60%;
+  color: white;
+  padding: 0rem 1rem 0;
+  }
+  
+  .card5 p{
+  font-size:clamp(1.2rem, 1.5vw, 3rem);
+  position: relative;
+  top: 60%;
+  color: white;
+  padding: 0rem 1.4rem;
+  }
+
 /*Mapa*/
 .mapa{
 width: 100%;
@@ -570,11 +597,11 @@ text-decoration: none;
     padding-right: 2rem;
   }
 
- .card, .card2, .card3, .card4{ 
+ .card, .card2, .card3, .card4, .card5{ 
     transition: .4s ease-in-out;
 }
 
-.card:hover, .card2:hover, .card3:hover, .card4:hover{
+.card:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover{
     transform: scale(1.01);
     box-shadow: 0px 0px 20px rgb(0, 0, 128);
 }
