@@ -162,50 +162,56 @@ justify-content: space-between;
     font-weight: 400;
     font-size: clamp(1rem, 1.7vw, 2rem);
   }
+.tit-ser{
+    text-align: center;
+    padding: 10% 5% 0;
+    color: rgb(0, 0, 128);
+    font-size: clamp(2.8rem, 6vw, 4rem);
+}
 
-  .dat-gen{
+.tit-ser-h2{
+    text-align: center;
+    color: rgb(4, 107, 13);
+    font-size: clamp(1.3rem, 4vw, 2rem);
+}
+
+.servicios{
     display: grid;
     grid-template-columns: 1fr;
+    margin: 5%;
     text-align: center;
-    gap: 1rem;
-    margin: 15vh 1.5rem;
-  }
+    gap: 5rem;
+}
 
-  .datos{
+.servicios-1{
+    box-shadow: 1px 1px 20px rgb(160, 160, 160);
     display: grid;
-    box-shadow: .01rem .01rem .5rem rgba(2, 128, 0, 0.418);
-    grid-template-rows: repeat(2,1fr);
-    border-radius: .3rem;
-    
-  }
+    grid-template-columns: 1fr;
+    background: rgb(0, 0, 128);
+    color: white;
+}
 
-  .dat h1{
-    color: rgb(2, 128, 0);
-    font-size: clamp(2rem, 3vw, 3rem);
-    padding: 1rem;
-    font-weight: 500;
-  }
+.servicios-2{
+    box-shadow: 1px 1px 20px rgb(160, 160, 160);
+    display: grid;
+    grid-template-columns: 1fr;
+    background: rgb(4, 107, 13);
+    color: white;
+}
 
-  .dat p{
-    font-weight: 400;
-    padding: 1rem;
-    font-size: clamp(1rem, 1.7vw, 2rem);
-  }
+.serv-txt h1, .serv-txt-2 h1{
+    font-size: 250%;
+    padding: 7%;
+}
 
-  .dat-img{
-    background: url(../img/señor.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.serv-txt p, .serv-txt-2 p{
+    font-size: 120%;
+    padding: 0 1rem 1rem;
+}
 
-.dat-img-1{
-    background: url(../img/Persona-cultivando.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
+.serv-img-1 img, .serv-img-2 img, .serv-img-3 img, .serv-img-4 img{
+    width: 100%;
+}
 
   .ven{
     display: grid;
@@ -326,6 +332,50 @@ justify-content: space-between;
 
 
   @media screen and (min-width:600px) {
+
+     .servicios{
+        padding: 0%;
+        text-align: left;
+        gap: 2rem;
+
+    }
+
+    .servicios-1,.servicios-2{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .serv-img-1 img, .serv-img-2 img, .serv-img-3 img, .serv-img-4 img{
+        display: none;
+    }
+
+    .serv-img-1{
+        background: url(https://aqmlaboratorios.com/wp-content/uploads/2017/05/An%C3%A1lisis-de-suelos.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+    .serv-img-2{
+        background: url(https://econatur.net/wp-content/uploads/2020/12/DSC8567.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .serv-img-3{
+        background: url(https://imagenzac.com.mx/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-24-at-4.22.48-PM.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .serv-img-4{
+        background: url(https://jocejob.com/wp-content/uploads/c4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
     .ini{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -363,6 +413,10 @@ justify-content: space-between;
   }
 
   @media screen and (min-width:1024px){
+
+    .servicios{
+        grid-template-columns: repeat(2,1fr);
+    }
     .ini{
       margin: 25vh 3rem;
       gap: 1rem 3rem;
