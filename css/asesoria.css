@@ -231,7 +231,7 @@ justify-content: space-between;
    }
 
    .ven-1 small{
-    color: rgba(148, 148, 148, 0.925);
+    color: rgb(4, 107, 13);
     font-weight: 800;
     font-size: clamp(1rem,1.5vw,2rem);
    }
