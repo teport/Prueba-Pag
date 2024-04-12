@@ -164,7 +164,7 @@ justify-content: space-between;
   }
 .tit-ser{
     text-align: center;
-    padding: 10% 5% 0;
+    padding: 0% 5% 0;
     color: rgb(0, 0, 128);
     font-size: clamp(2.8rem, 6vw, 4rem);
 }
