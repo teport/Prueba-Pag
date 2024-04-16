@@ -322,8 +322,101 @@
     }
 
 
+    .partes{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      margin: 10% 5%;
+    }
+
+    .partes-tit{
+      font-size: clamp(2rem, 3.5vw, 4rem);
+      color: rgb(0, 0, 128);
+    }
+
+    .partes-1{
+      text-align: center;
+      box-shadow: 0 0 5px rgb(0, 0, 128);
+      border-radius: 1rem;
+      padding: 1rem;
+    }
+
+    .partes-1 img{
+      width: 70%;
+    }
+
+    .partes-txt{
+      background: rgb(0, 0, 128);
+      border-radius: 1rem;
+      color: white;
+      padding: 1rem;
+    }
+
+    .partes-txt h1{
+      font-size: clamp(1.8rem, 3.5vw, 4rem);
+    }
+
+
+
+    .partes-2{
+      text-align: center;
+      box-shadow: 0 0 5px rgb(0, 0, 128);
+      border-radius: 1rem;
+      padding: 1rem;
+      background: rgb(0, 0, 128);
+    }
+
+    .partes-2 img{
+      width: 70%;
+    }
+
+    .partes-2-txt{
+      background: rgb(255, 255, 255);
+      border-radius: 1rem;
+      color: rgb(0, 0, 128);
+      padding: 1rem;
+    }
+
+    .partes-2-txt h1{
+      font-size: clamp(1.8rem, 3.5vw, 4rem);
+    }
+
+    /*partes 3*/
+    
+    .partes-3{
+      text-align: center;
+      box-shadow: 0 0 5px rgb(0, 0, 128);
+      border-radius: 1rem;
+      padding: 1rem;
+      background: rgb(255, 255, 255);
+    }
+
+    .partes-3 img{
+      width: 70%;
+    }
+
+    .partes-3-txt{
+      background: rgb(255, 255, 255);
+      border-radius: 1rem;
+      color: rgb(0, 0, 128);
+      padding: 1rem;
+      text-align: left;
+    }
+
+    .partes-3-txt h1{
+      font-size: clamp(1.8rem, 3.5vw, 4rem);
+    }
+
 @media screen and (min-width:767px) {
 
+    .partes-tit:first-child{
+      grid-column: 1/3;
+    }
+
+    .partes{
+  grid-template-columns: repeat(2, 1fr);
+}
+    
     .equipos{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
@@ -347,7 +440,15 @@
 
 @media screen and (min-width:1024px){
     
+    .partes{
+      grid-template-columns: repeat(3,1fr);
+    }
 
+    .partes-tit:first-child{
+      grid-column: 1/4;
+    }
+
+    
     .equipos{
       margin: 0 2rem;
     }
