@@ -228,27 +228,17 @@
                     nav.classList.remove("visible");
                     })
                 </script>
-                <script>
-                    document.addEventListener('DOMContentLoaded', function () {
-                        const container = document.querySelector('.container');
-                        const leftArrow = document.querySelector('.leftArrow');
-                        const rightArrow = document.querySelector('.rightArrow');
-            
-                        leftArrow.addEventListener('click', function () {
-                            container.scrollBy({
-                                left: -container.clientWidth,
-                                behavior: 'smooth'
-                            });
-                        });
-            
-                        rightArrow.addEventListener('click', function () {
-                            container.scrollBy({
-                                left: container.clientWidth,
-                                behavior: 'smooth'
-                            });
-                        });
-                    });
-                </script>
+              <script>
+                    const rightBtn = document.querySelector(".rightArrow");
+                    const leftBtn = document.querySelector(".leftArrow");
+                    const content = document.querySelector("container snaps-inline");
+            rightBtn.addEventListener("click",()=>{
+            content.scrollLeft += 800;
+            });
+            leftBtn.addEventListener("click",()=>{
+            content.scrollLeft -= 800;
+            })
+            </script>
 </main>
 
 <footer class="pie-pagina">
