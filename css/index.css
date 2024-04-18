@@ -158,6 +158,27 @@ justify-content: space-between;
 }
 
 
+section,div,article,footer{
+  animation: reveal linear both;
+  animation-timeline: view();
+  animation-range:entry 0% cover 30%;
+}
+
+@keyframes reveal{
+  from {
+    opacity: 0;
+    translate: 0px 10px;
+    scale: .8;
+  }
+
+  to{
+    opacity: 1;
+    translate: 0 0;
+    scale: 1
+  }
+}
+
+
 /*Card Principal*/
 
 .tit{
