@@ -311,11 +311,12 @@ header{
     left: 50%;
 }
 
-section,div,article,footer{
+.container{
   animation: reveal linear both;
   animation-timeline: view();
   animation-range:entry 0% cover 30%;
 }
+
 
 @keyframes reveal{
   from {
