@@ -6,14 +6,14 @@
     <title>Agroquimicos</title>
     <link rel="stylesheet" href="../css/agroquim.css">
     <link rel="icon" href="../img/favicon2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
-
-  <header>
-    <!-- Video de fondo -->   
-    <!--Barra de Navegacion-->
-    <div class="head">
+<header>
+        <div class="head">
       <div class="equ">
           <img src="../img/favicon.png"  class="logo-res">
           <button id="abrir" class="abrir-menu">
@@ -23,11 +23,11 @@
       <div class="head-1">
       <nav class="nav">
       <ul class="nav-list">
-          <li><a href="https://teport.github.io/Prueba-Pag/">Inicio</a></li>
-          <li><a href="https://teport.github.io/Prueba-Pag/#presencia">Presencia</a></li>
-          <li><a href="https://teport.github.io/Prueba-Pag/"><img src="../img/favicon.png" class="logo" alt="" ></a></li>
-          <li><a href="https://teport.github.io/Prueba-Pag/#servicios">Servicios</a></li>
-          <li><a href="https://teport.github.io/Prueba-Pag/html/his.html#" target="_blank" rel="noreferrer">Nosotros</a></li>
+          <li><a href="http://127.0.0.1:5500/index.html">Inicio</a></li>
+          <li><a href="http://127.0.0.1:5500/index.html#presencia">Presencia</a></li>
+          <li><a href="http://127.0.0.1:5500/index.html"><img src="../img/favicon.png" class="logo" alt="" ></a></li>
+          <li><a href="http://127.0.0.1:5500/index.html#servicios">Servicios</a></li>
+          <li><a href="http://127.0.0.1:5500/his.html#" target="_blank" rel="noreferrer">Nosotros</a></li>
       </ul>
       </nav>
       <!--Barra lateral responsive-->
@@ -36,16 +36,96 @@
               <img src="../fotos/iconizer-x-lg.svg" alt="">
           </button>
           <ul class="nav-list-2">
-          <li><a href="https://teport.github.io/Prueba-Pag/">Inicio</a></li>
-          <li><a href="https://teport.github.io/Prueba-Pag/#presencia">Presencia</a></li>
-          <li><a href="https://teport.github.io/Prueba-Pag/#servicios">Servicios</a></li>
-          <li><a href="https://teport.github.io/Prueba-Pag/html/his.html#" target="_blank" rel="noreferrer">Nosotros</a></li>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#presencia">Presencia</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="http://127.0.0.1:5500/his.html">Historia</a></li>
           </ul>
       </nav>
       </div>
    </div>
-   <h1 class="fav"><strong style="font-size: clamp(2rem, 2vw + 3rem, 6rem);">Agroquimicos</strong> <br>Cuidando tus Cultivos</h1>
-</header>
+
+        <!-- Titulo -->
+        <div class="tit">
+            <div class="tit-1">
+                <h1>Agroquimicos</h1>
+                <p>Cuidando tus Cultivos</p>
+                <button type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contactanos</button>
+                <button class="btn">Ver Distribuidores</button>
+            </div>
+        </div>
+    </header>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Contactanos</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="col-lg-12 contact-form__wrapper p-2 order-lg-1">
+                    <form action="#" class="contact-form form-validate" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-mdf-12 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="firstName">Nombre</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName"
+                                        placeholder="Sergio">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 mb-3">
+                                <div class="form-group">
+                                    <label for="lastName">Apellido</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName"
+                                        placeholder="Pérez">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="required-field" for="email">Email</label>
+                                    <input type="text" class="form-control" id="email" name="email"
+                                        placeholder="nombre@ejemplo.com">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 mb-3 ">
+                                <div class="form-group">
+                                    <label for="phone">Número Celular</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone"
+                                        placeholder="(493)-123-4567">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="message">En que podemos ayudarte?</label>
+                                    <textarea class="form-control" id="message" name="message" rows="4"
+                                        placeholder="Hola a todos, me gustaria....."></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 mb-3">
+                                </div>
+                                <div class="col-sm-12 mb-3">
+                                    <p></p>
+                                    <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+  <!--Aqui se acaba-->
 
 <main>
     <article class="presen">
