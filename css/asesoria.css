@@ -304,9 +304,9 @@ justify-content: space-between;
 
    .asesor-2{
     position: relative;
-    border: .1rem solid rgb(0, 0, 128);
     padding: 1rem;
     border-radius: 1rem;
+    background:#c5c5c566;
    }
 
    .asesor-2 img{
