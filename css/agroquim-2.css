@@ -412,8 +412,8 @@
 
 @media screen and (min-width:700px){
   .menu{
-      grid-template-columns: repeat(6, 15rem);
-      grid-template-rows: 20rem;
+      grid-template-columns: repeat(6, 17rem);
+      grid-template-rows: 25rem;
   }
 
   .impor-sub{
