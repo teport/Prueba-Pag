@@ -435,19 +435,9 @@
 
   .menu-1:hover, .menu-2:hover, .menu-3:hover, .menu-4:hover, .menu-5:hover, .menu-6:hover{
       scale: 1.02;
-      box-shadow: 0 0 18px rgb(87, 87, 87);
+      box-shadow: 0 0 18px rgb(0, 0, 128);
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
