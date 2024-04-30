@@ -147,7 +147,7 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 8vh;
+    margin: 15vh 5vh;
     gap: 2rem;
   }
   
