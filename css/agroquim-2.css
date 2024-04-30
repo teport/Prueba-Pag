@@ -143,6 +143,42 @@
   }
 
 
+  .guar{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 8vh;
+    gap: 2rem;
+  }
+  
+  .guar-1{
+    position: relative;
+  }
+  
+  .guar-1-1 h1{
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    color: rgb(0, 0, 128);
+  }
+  
+  .guar-1-1 small{
+    font-size: clamp(1rem, 3vw, 2rem);
+    color: rgb(15, 105, 19);
+  }
+  
+  .guar-1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -7px;
+    background: rgb(15, 105, 19);
+    left: 0;
+  }
+  
+  .guar-2 p{
+    font-size: clamp(.8rem, 2vw, 1.5rem);
+  }
+
 .produ{
   margin: 20vh 0;
 }
@@ -426,6 +462,34 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+}
+
+    .guar{
+  grid-template-columns: repeat(2,1fr);
+  margin: 20vh 15vh;
+}
+
+.guar-1::after {
+content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: rgb(0, 128, 6);
+  top: 0;
+  left: 100%;
+  margin-left: -3px;
+  z-index: 1;
+}
+
+.guar-1-1{
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+margin: 0 2rem;
+}
+
+.guar-2 p{
+text-align: left;
 }
 }
 @media screen and (min-width:1024px) {
