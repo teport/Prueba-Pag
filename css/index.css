@@ -259,7 +259,8 @@ scroll-padding: 1rem;
 }
 
 .snaps-inline{
-scroll-snap-type: inline proximity;
+  /*
+scroll-snap-type: inline proximity;*/
 scrollbar-width: none;
 }
 
