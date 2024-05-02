@@ -138,345 +138,368 @@ justify-content: space-between;
 }
 
 
-.tit{
-    color: white;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100vh;
-    
-    /*
-    background: rgb(24,19,191);
-    background: linear-gradient(207deg, rgba(24,19,191,0) 0%, rgba(24,19,191,0) 49%, rgba(24,19,191,1) 100%, rgba(0,0,128,1) 100%);
-    */
-
-    /*
-    background: rgb(22,191,19);
-    background: linear-gradient(231deg, rgba(22,191,19,0) 63%, rgba(22,191,19,1) 100%);
-    */
-}
-
-.tit-1{
+  .guar{
     text-align: center;
-    position: relative;
-    top: 30%;
-    transform: translateY(-50%);
-    padding-left: 0%;
-}
-
-.tit-1 h1{
-    font-size:clamp(3rem, 10vw, 5rem);
-    
-}
-
-.tit p{
-    font-size: clamp(1.2rem, 4vw, 2rem);
-    padding-bottom: 1rem;
-}
-
-.tit-1 button{
-    padding: .7rem;
-    background: #2118ff;
-    border: none;
-    border-radius: 1rem;
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
-    font-weight: 400;
-    transition: .4s;
-}
-
-.tit-1 .btn{
-    padding: .7rem;
-    background: white;
-    border: none;
-    border-radius: 1rem;
-    color: #2118ff;
-    font-size: 1rem;
-    font-weight: 400;
-    transition: .4s;
-}
-
-main{
-    margin: 0 2rem;
-}
-
-.presen{
     display: grid;
     grid-template-columns: 1fr;
+    margin: 15vh 5%;
     gap: 2rem;
-    margin: 8rem 0rem;
-}
-
-.presen-1{
+  }
+  
+  .guar-1{
     position: relative;
+  }
+  
+  .guar-1-1 h1{
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    color: rgb(0, 0, 128);
+  }
+  
+  .guar-1-1 small{
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: rgb(15, 105, 19);
+  }
+  
+  .guar-1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -7px;
+    background: rgb(15, 105, 19);
+    left: 0;
+  }
+  
+  .guar-2 p{
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+  }
+
+.produ{
+  margin: 20vh 0;
 }
 
-.presen-prin{
-    text-align: center;
+.produ h1{
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  color: rgb(0, 0, 128);
+  padding: 1rem  2rem;
 }
 
-.presen-1 h1{
-    color: rgb(0,0, 128);
-    font-size: clamp(2.8rem, 6vw, 4rem);
+ strong{
+  font-size: clamp(2.3rem, 4vw, 3rem);
+  color: rgb(12, 116, 17);
+}
+
+.menu{
+  display:grid;
+  grid-template-columns: repeat(6, 15rem);
+  grid-template-rows: 20rem;
+  gap: 1rem;
+  overflow-x: auto;
+  overscroll-behavior-x: auto;
+  scroll-padding: 0 2rem ;
+  scroll-behavior: smooth;
+  padding: 1.5rem 2rem;
+  
+}
+
+.snaps-inline {
+  scrollbar-width: none;
+}
+
+.snaps-inline>* {
+  scroll-snap-align: start;
+}
+
+.menu-1{
+  box-shadow: 0 0 12px rgb(105, 105, 105);
+  text-align: center;
+  border-radius: .7rem;
+  background: url(../img/agroquimicoss.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.capa{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.185);
+  position: absolute;
+  padding: 0;
+  border-radius: .7rem;
+}
+
+.menu-1-1{
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+
+
+.menu-1-1 h2{
+  font-size:clamp(2rem, 2.4vw, 2.5rem);
+  color: rgb(255, 255, 255);
+  padding: 0;
+  font-weight: 900;
+  z-index: 999;
+  position: relative;
+  text-align: center;
+}
+
+.menu-1-1 p {
+  position: relative;
+  font-size:clamp(.8rem, 1.2vw, 2rem);
+  color: white;
+  z-index: 999;
+}
+
+.menu-2{
+  box-shadow: 0 0 12px rgb(105, 105, 105);
+  text-align: center;
+  border-radius: .7rem;
+  background: url(../img/fericidas.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.menu-3{
+  box-shadow: 0 0 12px rgb(105, 105, 105);
+  text-align: center;
+  border-radius: .7rem;
+  background: url(../img/fuggggg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.menu-4{
+  box-shadow: 0 0 12px rgb(105, 105, 105);
+  text-align: center;
+  border-radius: .7rem;
+  background: url(../img/bioestimulante.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.menu-5{
+  box-shadow: 0 0 12px rgb(105, 105, 105);
+  position: relative;
+  text-align: center;
+  border-radius: .7rem;
+  background: url(../img/insecticidas.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-6{
+  box-shadow: 0 0 12px rgb(105, 105, 105);
+  position: relative;
+  text-align: center;
+  border-radius: .7rem;
+  background: url(../img/herbicidas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Importancia*/
+
+.impor {
+    background: url(../img/prueba.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 5%;
+    margin: 15vh 0;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.impor-sub{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    background: white;
+    text-align: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.impor-1{
     padding: 1rem;
 }
 
-.presen-1 p{
-    font-size: clamp(1.3rem, 4vw, 2rem);
-    line-height: 2rem;
-    padding-bottom: 1.5rem;
+.impor-1 h1{
+    color: rgb(0, 0, 128);
+    font-size:clamp(2rem, 2.8vw, 3rem);
 }
 
-.presen-1 a{
+.impor-1 p{
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    padding: 1rem 0;
+}
+
+.impor-2{
     position: relative;
+    
+}
+
+.impor-2{
+    display: block;
+    background: url(../img/señor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.impor-1 button {
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(0, 0, 128);
+    color: white;
+}
+
+
+/*Pie de Pagina*/
+.pie-pagina{
+    margin-top: 10rem;
+    width: 100%;
+    background: rgb(0, 0, 128);
+  }
+  
+  .pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+  .pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    font-size: 2rem;
-    font-weight: 900;
-    text-decoration: none;
-    color: rgb(0,0, 128);
-}
-
-.presen-2{
-    background: rgba(151, 151, 151, 0.2);
-    text-align: center;
-    position: relative;
-    padding: 1.5rem 0;
-}
-
-.presen-2 img{
-    width: 20%;
-}
-
-.presen-2 h1{
-    color: rgb(0,0, 128);
-    font-size: clamp(2.3rem, 4vw, 3rem);
-    padding: 1rem;
-}
-
-.presen-2 p{
-    font-size: clamp(1.2rem, 3vw, 1.5rem);
-    line-height: 2rem;
-    padding-bottom: 2rem;
-}
-
-.presen-2 a{
-    text-decoration: none;
-    font-size: 2rem;
-    color: rgb(0,0, 128);
-    font-weight: 900;
-}
-
-
-.mejor{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-}
-
-.mejor-1,.mejor-2,.mejor-3,.mejor-4,.mejor-5,.mejor-6{
-    text-align: center;
-    background: rgb(0,0, 128);
-    padding: 2rem 0;
-}
-
-.mejor-1 img,.mejor-2 img,.mejor-3 img,.mejor-4 img,.mejor-5 img,.mejor-6 img{
-    width: 20%;
-}
-
-.mejor-1 h1,.mejor-2 h1,.mejor-3 h1,.mejor-4 h1,.mejor-5 h1,.mejor-6 h1{
-    color: rgb(253, 253, 253);
-    font-size: 2.7rem;
-    padding: 1.5rem;
-}
-
-.mejor-1 p, .mejor-2 p,.mejor-3 p,.mejor-4 p,.mejor-5 p,.mejor-6 p{
+    align-items: center;
+  }
+  
+  .pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+  }
+  
+  .pie-pagina .grupo-1 .box h2{
     color: white;
-    padding-bottom: 2rem;
-}
-
-.mejor-1 a, .mejor-2 a,.mejor-3 a,.mejor-4 a,.mejor-5 a,.mejor-6 a{
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+  }
+  
+  .pie-pagina .grupo-1 .box p{
+    color: white;
+    margin-bottom: .8rem;
+  }
+  
+  
+  .pie-pagina .grupo-1 .red-social{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pie-pagina .grupo-1 .red-social a{
     text-decoration: none;
     color: white;
-    font-weight: 900;
-    font-size: 1.5rem;
-    
+    margin-left: 0;
+  }
+  
+  .pie-pagina .grupo-2{
+    background: rgb(1, 1, 59);
+    padding: 1rem .7rem;
+    text-align: center;
+    color: white;
+  } 
+  
+  .pie-pagina .grupo-2 small{
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+       grid-template-columns: 1fr;
+    }
+  }
+
+@media screen and (min-width:700px){
+  .menu{
+      grid-template-columns: repeat(6, 19rem);
+      grid-template-rows: 28rem;
+  }
+
+  .impor-sub{
+    grid-template-columns: repeat(2,1fr);
 }
 
-
-@media screen and (min-width:750px){
-
-    .tit-1 button, .tit-1 .btn{
-        padding: 1rem;
-    }
-    
-    .presen{
-        grid-template-columns: repeat(2, 1fr);
-        margin: 3rem;
-    }
-
-    .presen-1:first-child{
-        grid-column: 1/3;
-    }
-
-    .mejor{
-        grid-template-columns: repeat(2, 1fr);
-        margin: 2rem;
-    }
-
+.impor-2{
+    display: block;
+    background: url(../img/señor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
-@media screen and (min-width:1061px) {
+    .guar{
+  grid-template-columns: repeat(2,1fr);
+  margin: 20vh 5%;
+}
 
-    .tit-1{
-        
-        top: 50%;
-    }
+.guar-1::after {
+content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: rgb(0, 128, 6);
+  top: 0;
+  left: 100%;
+  margin-left: -3px;
+  z-index: 1;
+}
 
-    .tit-1 button:hover{
-        background: rgb(255, 255, 255);
-        color: #2118ff;
-    }
+.guar-1-1{
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+margin: 0 2rem;
+}
 
-    .tit-1 .btn:hover{
-        color: rgb(255, 255, 255);
-        background: #2118ff;
-    }
+.guar-2 p{
+text-align: left;
+}
+}
+@media screen and (min-width:1024px) {
+  .menu-1, .menu-2, .menu-3, .menu-4, .menu-5, .menu-6{               
+      transition: all ease-in-out .4s;
+  }
+
+  .menu-1:hover, .menu-3:hover, .menu-5:hover, .menu-6:hover{
+      scale: 1.02;
+      box-shadow: 0 0 18px rgb(0, 0, 128);
+  }
+
+  .menu-2:hover,.menu-4:hover,.menu-6:hover{
+      scale: 1.02;
+      box-shadow: 0 0 18px rgb(12, 116, 17);
     
-    .presen{
-        grid-template-columns: 45% repeat(2, 1fr);
-        grid-template-rows: 50% 10% 40%;
-        gap: .5rem;
-        margin: 4rem 2rem;
-    }
-
-    .presen-1:first-child{
-        grid-column: 1/1;
-        grid-row: 1/4;
-    }
-
-    .presen-prin{
-        position: relative;
-        top: 40%;
-        transform: translateY(-50%);
-        text-align: left;
-        padding: 3rem;
-    }
-
-    .presen-prin p{
-        padding: 1rem;
-        line-height: 2.5rem;
-    }
-
-
-    .presen-1 a{
-       position: absolute;
-       top: 80%;
-       left: 40%;
-       transform: translate(-50% -50%); 
-    }
-
-    .presen-2:nth-child(2){
-        grid-row: 1/3;
-    }
-
-    .presen-2:nth-child(4){
-        grid-row: 2/4;
-    }
-
-    .mejor{
-        margin: 5rem 2rem;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .mejor-1:hover{
-        color: white;
-        background: url(../img/agroquimicoss.webp);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: .3s all ease-in-out;
-        z-index: 999;
-      }
-
-      .mejor-2:hover{
-        color: white;
-        background: url(../img/fuggggg.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: .3s all ease-in-out;
-        z-index: 999;
-      }
-
-      .mejor-3:hover{
-        color: white;
-        background: url(../img/herbicidas.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: .3s all ease-in-out;
-        z-index: 999;
-      }
-
-      .mejor-4:hover{
-        color: white;
-        background: url(../img/fericidas.webp);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: .3s all ease-in-out;
-        z-index: 999;
-      }
-
-      .mejor-5:hover{
-        color: white;
-        background: url(../img/insecticidas.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: .3s all ease-in-out;
-        z-index: 999;
-      }
-
-      .mejor-6:hover{
-        color: white;
-        background: url(../img/asesoria-man.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: .3s all ease-in-out;
-        z-index: 999;
-      }
-
-      .mejor-1:hover h1{
-        color: white;
-        z-index: 2;
-      }
-      
-      .mejor-1:hover p{
-        z-index: 2;
-      }
-      
-      .mejor-1:hover img{
-        z-index: 4;
-      }
-      
-      .mejor-1:hover .capa{
-          width: 100%;
-          height: 100%;
-      }
-      
-      .capa{
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 0%;
-          height: 0%;
-          background: rgba(9, 9, 122, 0.637);
-          opacity: 0.5;
-          z-index: 0;
-      }
 }
 
 
@@ -558,69 +581,3 @@ main{
 }
 
 
-.pie-pagina{
-  margin-top: 10rem;
-  width: 100%;
-  background: rgb(0, 0, 128);
-}
-
-.pie-pagina .grupo-1{
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 50px;
-  padding: 45px 0px;
-}
-.pie-pagina .grupo-1 .box figure{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pie-pagina .grupo-1 .box figure img{
-  width: 250px;
-}
-
-.pie-pagina .grupo-1 .box h2{
-  color: white;
-  margin-bottom: 25px;
-  font-size: 2.5rem;
-}
-
-.pie-pagina .grupo-1 .box p{
-  color: white;
-  margin-bottom: .8rem;
-}
-
-
-.pie-pagina .grupo-1 .red-social{
-  display: flex;
-  flex-direction: column;
-}
-
-.pie-pagina .grupo-1 .red-social a{
-  text-decoration: none;
-  color: white;
-  margin-left: 0;
-}
-
-.pie-pagina .grupo-2{
-  background: rgb(1, 1, 59);
-  padding: 1rem .7rem;
-  text-align: center;
-  color: white;
-} 
-
-.pie-pagina .grupo-2 small{
-  font-size: 1rem;
-}
-
-@media screen and (max-width:800px){
-  .pie-pagina .grupo-1{
-     grid-template-columns: 1fr;
-  }
-}
