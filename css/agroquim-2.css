@@ -161,7 +161,7 @@
   }
   
   .guar-1-1 small{
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: clamp(1.5rem, 3vw, 2rem);
     color: rgb(15, 105, 19);
   }
   
@@ -176,7 +176,7 @@
   }
   
   .guar-2 p{
-    font-size: clamp(.8rem, 2vw, 1.5rem);
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
   }
 
 .produ{
