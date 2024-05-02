@@ -172,7 +172,7 @@ justify-content: space-between;
 }
 
 .tit small{
-  color: rgb(128, 128, 128);
+  color:green;
   font-size: clamp(1rem,3vw,1.5rem);
 }
 
@@ -241,7 +241,7 @@ color: rgb(0, 0, 128);
 
 .equip small{
 font-size:clamp(1.5rem, 2rem, 3rem) ;
-color: rgb(128, 128, 128);
+color: green;
 }
 
 
