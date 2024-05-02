@@ -466,7 +466,7 @@
 
     .guar{
   grid-template-columns: repeat(2,1fr);
-  margin: 20vh 15vh;
+  margin: 20vh 5%;
 }
 
 .guar-1::after {
