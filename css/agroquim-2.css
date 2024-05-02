@@ -208,7 +208,6 @@
 }
 
 .snaps-inline {
-  scroll-snap-type: inline proximity;
   scrollbar-width: none;
 }
 
