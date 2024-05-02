@@ -256,7 +256,7 @@
 
 .menu-1-1 p {
   position: relative;
-  font-size:clamp(.5rem, 1vw, 2rem);
+  font-size:clamp(.8rem, 1.2vw, 2rem);
   color: white;
   z-index: 999;
 }
