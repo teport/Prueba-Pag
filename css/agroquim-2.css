@@ -321,7 +321,7 @@
 .impor {
     background: url(../img/prueba.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    /*background-position: center;*/
     background-size: cover;
     padding: 0 5%;
     margin: 15vh 0;
