@@ -152,7 +152,7 @@ justify-content: space-between;
 .tit-1{
     text-align: center;
     position: relative;
-    top: 30%;
+    top: 50%;
     transform: translateY(-50%);
     padding-left: 0%;
 }
