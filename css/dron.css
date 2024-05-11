@@ -198,6 +198,7 @@ justify-content: space-between;
   grid-template-rows: 70vh;
   grid-auto-rows: 70vh;
   gap: 3rem;
+  margin:10vh 0;  
 }
 
 .caracteri h1{
@@ -454,7 +455,6 @@ justify-content: space-between;
 @media screen and (min-width:1024px) {
   .carac{
     grid-template-columns: repeat(3,1fr);
-    margin: 0 0rem;
   }
 }
 
