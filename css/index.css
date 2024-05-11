@@ -242,6 +242,7 @@ color: rgb(0, 0, 128);
 .equip small{
 font-size:clamp(1.5rem, 2rem, 3rem) ;
 color: green;
+font-weight: 600;
 }
 
 
