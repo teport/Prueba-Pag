@@ -356,7 +356,7 @@ header .fav {
     background: url(../img/RAFIA2.png);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     text-decoration: none;
     position: relative;
 }
