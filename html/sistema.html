@@ -201,6 +201,82 @@
           </div>  
           </section>
         </section>
+
+       <section class="cat">
+    <h1>Tuberias</h1>
+    <button class="left"> < </button>
+    <button class="right"> > </button>
+    <div class="catal snaps-inline">
+
+        <a href="" class="catal-1">
+            <h2>Tubo</h2>
+        </a>
+
+        <a href="" class="catal-2">
+            <h2>Codos</h2>
+        </a>
+
+        <a href="" class="catal-1">
+            <h2>Tuberias</h2>
+        </a>
+
+        <a href="" class="catal-2">
+            <h2>Codos</h2>
+        </a>
+
+        <a href="" class="catal-1">
+            <h2>Tuberias</h2>
+        </a>
+
+        <a href="" class="catal-2">
+            <h2>Codos</h2>
+        </a>
+
+        <a href="" class="catal-1">
+            <h2>Tuberias</h2>
+        </a>
+
+        
+    </div>
+</section>
+
+<section class="cat-sub">
+    <h1>Mangehras</h1>
+    <button class="left-sub"> < </button>
+    <button class="right-sub"> > </button>
+    <div class="catal-sub snaps-inline">
+
+        <a href="" class="catal-sub-2">
+            <h2>Tubo</h2>
+        </a>
+
+        <a href="" class="catal-sub-1">
+            <h2>Codos</h2>
+        </a>
+
+        <a href="" class="catal-sub-2">
+            <h2>Tubo</h2>
+        </a>
+
+        <a href="" class="catal-sub-1">
+            <h2>Codos</h2>
+        </a>
+        
+        <a href="" class="catal-sub-2">
+            <h2>Tubo</h2>
+        </a>
+
+        <a href="" class="catal-sub-1">
+            <h2>Codos</h2>
+        </a>
+
+        <a href="" class="catal-sub-2">
+            <h2>Tubo</h2>
+        </a>
+        
+    </div>
+</section>
+
        
     </main>
         <script>
@@ -216,5 +292,50 @@
       nav.classList.remove("visible");
       })
     </script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const catal = document.querySelector('.catal');
+        const left = document.querySelector('.left');
+        const right = document.querySelector('.right');
+
+        left.addEventListener('click', function () {
+            catal.scrollBy({
+                left: -catal.clientWidth,
+                behavior: 'smooth'
+            });
+        });
+
+        right.addEventListener('click', function () {
+            catal.scrollBy({
+                left: catal.clientWidth,
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const catal = document.querySelector('.catal-sub');
+        const left = document.querySelector('.left-sub');
+        const right = document.querySelector('.right-sub');
+
+        left.addEventListener('click', function () {
+            catal.scrollBy({
+                left: -catal.clientWidth,
+                behavior: 'smooth'
+            });
+        });
+
+        right.addEventListener('click', function () {
+            catal.scrollBy({
+                left: catal.clientWidth,
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
 </body>
 </html>
