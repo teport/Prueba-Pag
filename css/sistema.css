@@ -220,217 +220,39 @@
     width: 20%;
   }
 
+.catalo{
+    background-color: rgba(236, 236, 236, 0.637);
+    padding: 3rem 0;
+}
 
-  .equipos{
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 3rem;
-    background: rgba(0, 0, 0, .2);
-    padding: 2rem 1rem;
-    text-align: center;
-    margin: 0 1rem;
-    box-shadow: 1px 1px 10px 1px rgb(192, 192, 192);
-  }
+.catalo-txt{
+    padding: 7px 0 0 2rem;
+}
 
-  .equipos-tit h1{
-    font-size: clamp(1.8rem, 3.5vw, 4rem);
+.catalo-txt h1{
     color: rgb(0, 0, 128);
-    margin-bottom: .5rem;
     font-weight: 700;
-  }
-
-  .equipos-tit p{
-    font-size: clamp(1.2rem, 2.5vw, 3rem);
-    color: rgb(82, 82, 82);
-    font-weight: 300;
+    font-size: 400%;
+    margin:0;
 }
 
-
-    .txt-eq strong{
-        color: rgb(0, 0, 128);
-        font-size: clamp(1.5rem, 2.5vw, 2.8rem);
-    }
-
-    .txt-eq p{
-      font-size: clamp(1rem, 1.5vw, 1.8rem);
-      padding: 1rem;
-    }
-    
-
-    .img-eq img{
-      max-width: 100%;
-    }
-
-    /*.img-eq{
-      margin-top: 3rem;
-      position: relative;
-      min-height: 10rem;
-      background: url(fotos/tuberias.png);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }*/
-
-     .img-eq-1{
-      margin-top: 1rem;
-      position: relative;
-      height: 10rem;
-      background: url(../fotos/gotero.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .img-eq-2{
-      margin-top: 1rem;
-      position: relative;
-      height: 10rem;
-      background: url(../fotos/filtros.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .img-eq-3{
-      margin-top: 1rem;
-      position: relative;
-      height: 10rem;
-      background: url(../fotos/concectores.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .img-eq-4{
-      margin-top: 1rem;
-      position: relative;
-      height: 10rem;
-      background: url(../fotos/valvulas.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .img-eq-5{
-      margin-top: 1rem;
-      position: relative;
-      height: 10rem;
-      background: url(../x|fotos/controlador.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-
-    .partes{
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 3rem;
-      margin: 10% 5%;
-    }
-
-    .partes-tit{
-      font-size: clamp(2rem, 3.5vw, 4rem);
-      color: rgb(0, 0, 128);
-    }
-
-    .partes-1{
-      text-align: center;
-      box-shadow: 0 0 5px rgb(0, 0, 128);
-      border-radius: 1rem;
-      padding: 1rem;
-    }
-
-    .partes-1 img{
-      width: 70%;
-    }
-
-    .partes-txt{
-      background: rgb(0, 0, 128);
-      border-radius: 1rem;
-      color: white;
-      padding: 1rem;
-    }
-
-    .partes-txt h1{
-      font-size: clamp(1.8rem, 3.5vw, 4rem);
-    }
-
-
-
-    .partes-2{
-      text-align: center;
-      box-shadow: 0 0 5px rgb(0, 0, 128);
-      border-radius: 1rem;
-      padding: 1rem;
-      background: rgb(0, 0, 128);
-    }
-
-    .partes-2 img{
-      width: 70%;
-    }
-
-    .partes-2-txt{
-      background: rgb(255, 255, 255);
-      border-radius: 1rem;
-      color: rgb(0, 0, 128);
-      padding: 1rem;
-    }
-
-    .partes-2-txt h1{
-      font-size: clamp(1.8rem, 3.5vw, 4rem);
-    }
-
-    /*partes 3*/
-    
-    .partes-3{
-      text-align: center;
-      box-shadow: 0 0 5px rgb(0, 0, 128);
-      border-radius: 1rem;
-      padding: 1rem;
-      background: rgb(255, 255, 255);
-    }
-
-    .partes-3 img{
-      width: 70%;
-    }
-
-    .partes-3-txt{
-      background: rgb(255, 255, 255);
-      border-radius: 1rem;
-      color: rgb(0, 0, 128);
-      padding: 1rem;
-      text-align: left;
-    }
-
-    .partes-3-txt h1{
-      font-size: clamp(1.8rem, 3.5vw, 4rem);
-    }
-
-/*Lo nuevo de Productos*/
-.cat, .cat-sub {
-    margin: 15vh 0;
-    position: relative;
-
-}
-
-.cat h1, .cat-sub h1 {
+.catalo-txt small{
     color: rgb(0, 0, 128);
-    font-size: 3rem;
-    padding: 2rem 0;
-    padding: 2rem;
+    font-weight: 500;
+    font-size: 200%;
 }
 
-.catal, .catal-sub{
+.cat{
+    margin: 6vh 0;
     display: grid;
-    grid-template-columns: repeat(7, 15rem);
-    grid-template-rows: 20rem;
-    gap: 2rem;
+    grid-template-columns: repeat(6, 12rem);
+    grid-template-rows: 15rem;
+    gap: 1rem;
     overflow-x: auto;
     overscroll-behavior-x: auto;
     scroll-padding: 0 2rem;
     scroll-behavior: smooth;
-    padding:1rem 2rem;
+    padding: 1rem 2rem;
 }
 
 .snaps-inline {
@@ -441,94 +263,120 @@
     scroll-snap-align: start;
 }
 
-
-.catal-1, .catal-sub-1{
-    box-shadow: 0 0 5px rgb(0, 0, 128);
-    text-decoration: none;
-    position: relative;
+.cat div{
+    box-shadow: 0 4px 6px 0 rgb(204, 204, 204);
+    text-align: center;
     border-radius: 5px;
-    background-image: url(../img/tuberias.png);
+}
+
+.cat button{
+    border: none;
+    padding: .5rem;
+    position: relative;
+    top: 80%;
+    transform: translateY(-50%);
+    background-color: rgb(0, 0, 128);
+    color: white;
+    border-radius: 10%;
+}
+
+.cat-1{
+    background-image: url(img/tuberias.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    transition: .4s ease-in-out;
+    background-color: white;
 }
 
-
-.catal-1:hover, .catal-sub-1:hover{
-    scale: 1.04;
-}
-
-.catal-1 h2, .catal-sub-1 h2{
-    background: rgb(0, 0, 128);
-    color: white;
-    position: absolute;
-    padding: 1rem;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 1.5rem;
-    border-radius: 1rem;
-}
-
-.catal-2, .catal-sub-2{
-    box-shadow: 0 0 5px rgb(0, 0, 128);
-    text-decoration: none;
-    position: relative;
-    border-radius: 5px;
-    background-image: url(../img/controlador.webp);
+.cat-2{
+    background-image: url(img/codo.jfif);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    transition: .4s ease-in-out;
+    background-color: white;
 }
 
-
-.catal-2:hover, .catal-sub-2:hover{
-    scale: 1.04;
+.cat-3{
+    background-image: url(img/codo-4.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
 }
 
-.catal-2 h2, .catal-sub-2 h2{
+.cat-4{
+    background-image: url(img/codos-2.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.cat-5{
+    background-image: url(img/codo-rec.jfif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.cat-6{
+    background-image: url(img/codo-rar.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+/*Modal General*/
+.sec-modal{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.modal-img{
+    text-align: center;
+    position: relative;
+}
+
+.modal-img::after{
+    content: "";
+    height: 100%;
+    width: 5px;
     background: rgb(0, 0, 128);
-    color: white;
     position: absolute;
-    padding: 1rem;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 1.5rem;
-    border-radius: 1rem;
+    right: 0;
 }
 
-.left, .left-sub{
-    background: rgba(0, 0, 128, 0.541);
-    position: absolute;
-    padding: 1.2rem;
-    border-radius: 40%;
-    top: 60%;
-    transform: translateY(-50%);
-    left: 10px;
-    z-index: 999;
-    border: none;
-    color: white;
+.modal-text h1{
+    font-weight: 900;
+    color: rgb(0, 0, 128);
+    padding-bottom: 1rem;
 }
 
-.right, .right-sub{
-    background: rgba(0, 0, 128, 0.541);
-    color: white;
-    position: absolute;
-    padding: 1.2rem;
-    border-radius: 30%;
-    top: 60%;
-    transform: translateY(-50%);
-    right:10px;
-    z-index: 999;
-    border: none;
+.model-ul{
+    list-style: none;
+    padding: 0;
 }
 
-.left:hover, .right:hover, .left-sub:hover, .right-sub:hover{
-    background: rgba(0,0,128);
+.model-ul strong{
+    color: rgb(0, 0, 128);
 }
+
+.modal-img img{
+    width: 100%;
+}
+
+.ul-img img{
+    background-color: rgb(0, 0, 128);
+    width: 10%;
+    padding: .2rem;
+    margin:1rem 5   px;
+    border-radius: 10px;
+}
+
+ 
 
 @media screen and (min-width:767px) {
 
@@ -540,25 +388,7 @@
   grid-template-columns: repeat(2, 1fr);
 }
     
-    .equipos{
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
-    }
-
-    .equipos-tit:first-child{
-        grid-column: 1/3;
-    }
-
-    .intro-dad{
-      grid-template-columns: repeat(2,1fr);
-    }
-
-    .intro-3{
-      grid-template-columns: repeat(2,1fr)
-}
-    .intro-3-0:first-child{
-  grid-column: 1/3;
-}
+    
 }
 
 @media screen and (min-width:1024px){
@@ -571,48 +401,49 @@
       grid-column: 1/4;
     }
 
-    
-    .equipos{
-      margin: 0 2rem;
-    }
-
-    .img-eq, .img-eq-1, .img-eq-2, .img-eq-3, .img-eq-4, .img-eq-5{
-      max-height: 12rem;
-    }
-
-    
-    .intro-3{
-      grid-template-columns: repeat(3,1fr);
-    }
-
-    .intro-3-0:first-child{
-      grid-column: 1/4;
-      text-align: center;
+    .cat{
+        grid-template-columns: repeat(6, 18rem);
+        grid-template-rows: 23rem;
     }
 
 
-
-    .equipos{
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 2rem;
-        
+    .cat div{
+        transition: .4s ease-in-out;
     }
 
-    .equipos-tit:first-child{
-        grid-column: 1/4;
+    .cat div:hover{
+        scale: 1.04;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    /*Modla Cat-1*/
+    .sec-modal{
+        grid-template-columns:  1fr;
+        grid-template-rows: repeat(2,1fr);
+    }
+
+
+    .modal-img::after{
+        content: "";
+        height: 5px;
+        width: 100%;
+        background: rgb(0, 0, 128);
+        position: absolute;
+        bottom: 0;
+    }
+
+    .modal-img img{
+        width: 50%;
     }
 }
 
 
 
 
-
-
-
-
   @media screen and (width <= 1061px){
-
-
     .logo-res{
       display: block;
     }
