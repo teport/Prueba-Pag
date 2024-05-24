@@ -418,30 +418,6 @@
     .cat div:hover{
         scale: 1.04;
     }
-}
-
-
-
-@media screen and (max-width: 1200px){
-    /*Modla Cat-1*/
-    .sec-modal{
-        grid-template-columns:  1fr;
-        grid-template-rows: repeat(2,1fr);
-    }
-
-
-    .modal-img::after{
-        content: "";
-        height: 5px;
-        width: 100%;
-        background: rgb(0, 0, 128);
-        position: absolute;
-        bottom: 0;
-    }
-
-    .modal-img img{
-        width: 50%;
-    }
 
     .left{
         background: rgba(207, 207, 207, 0.637);     
@@ -476,6 +452,30 @@
     .left:hover, .right:hover{
         background-color: rgba(128, 128, 128, 0.726);
         color: white;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    /*Modla Cat-1*/
+    .sec-modal{
+        grid-template-columns:  1fr;
+        grid-template-rows: repeat(2,1fr);
+    }
+
+
+    .modal-img::after{
+        content: "";
+        height: 5px;
+        width: 100%;
+        background: rgb(0, 0, 128);
+        position: absolute;
+        bottom: 0;
+    }
+
+    .modal-img img{
+        width: 50%;
     }
 }
 
