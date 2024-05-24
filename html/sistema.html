@@ -389,59 +389,22 @@
     </div>
 </div>
     </main>
-        <script>
-      const nav = document.querySelector("#nav-2");
-      const abrir = document.querySelector("#abrir");
-      const cerrar = document.querySelector("#cerrar");
-    
-      abrir.addEventListener("click",() => {
-      nav.classList.add("visible");
-      })
-      
-      cerrar.addEventListener("click", () => {
-      nav.classList.remove("visible");
-      })
-    </script>
-
-    <script>
+       <script>
     document.addEventListener('DOMContentLoaded', function () {
-        const catal = document.querySelector('.catal');
-        const left = document.querySelector('.left');
-        const right = document.querySelector('.right');
+        const container = document.querySelector('.cat');
+        const leftArrow = document.querySelector('.left');
+        const rightArrow = document.querySelector('.right');
 
-        left.addEventListener('click', function () {
-            catal.scrollBy({
-                left: -catal.clientWidth,
+        leftArrow.addEventListener('click', function () {
+            container.scrollBy({
+                left: -container.clientWidth,
                 behavior: 'smooth'
             });
         });
 
-        right.addEventListener('click', function () {
-            catal.scrollBy({
-                left: catal.clientWidth,
-                behavior: 'smooth'
-            });
-        });
-    });
-</script>
-
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const catal = document.querySelector('.catal-sub');
-        const left = document.querySelector('.left-sub');
-        const right = document.querySelector('.right-sub');
-
-        left.addEventListener('click', function () {
-            catal.scrollBy({
-                left: -catal.clientWidth,
-                behavior: 'smooth'
-            });
-        });
-
-        right.addEventListener('click', function () {
-            catal.scrollBy({
-                left: catal.clientWidth,
+        rightArrow.addEventListener('click', function () {
+            container.scrollBy({
+                left: container.clientWidth,
                 behavior: 'smooth'
             });
         });
