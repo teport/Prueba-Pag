@@ -223,6 +223,7 @@
 .catalo{
     background-color: rgba(236, 236, 236, 0.637);
     padding: 3rem 0;
+    position:relative;
 }
 
 .catalo-txt{
