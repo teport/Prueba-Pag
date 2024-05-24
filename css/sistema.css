@@ -281,7 +281,7 @@
 }
 
 .cat-1{
-    background-image: url(img/tuberias.png);
+    background-image: url(../img/tuberias.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -289,7 +289,7 @@
 }
 
 .cat-2{
-    background-image: url(img/codo.jfif);
+    background-image: url(../img/codo.jfif);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -297,7 +297,7 @@
 }
 
 .cat-3{
-    background-image: url(img/codo-4.webp);
+    background-image: url(../img/codo-4.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -305,7 +305,7 @@
 }
 
 .cat-4{
-    background-image: url(img/codos-2.webp);
+    background-image: url(../img/codos-2.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -313,7 +313,7 @@
 }
 
 .cat-5{
-    background-image: url(img/codo-rec.jfif);
+    background-image: url(../img/codo-rec.jfif);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -321,7 +321,7 @@
 }
 
 .cat-6{
-    background-image: url(img/codo-rar.jpg);
+    background-image: url(../img/codo-rar.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
