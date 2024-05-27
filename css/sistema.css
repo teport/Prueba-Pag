@@ -381,7 +381,97 @@
 .left, .right{
     display:none;
 }
- 
+
+/*Aspersion*/
+.cat-asper{
+    margin: 6vh 0;
+    display: grid;
+    grid-template-columns: repeat(6, 12rem);
+    grid-template-rows: 15rem;
+    gap: 1rem;
+    overflow-x: auto;
+    overscroll-behavior-x: auto;
+    scroll-padding: 0 2rem;
+    scroll-behavior: smooth;
+    padding: 1rem 2rem;
+}
+
+.left-asper, .right-asper{
+    display: none;
+}
+
+.snaps-inline {
+    scrollbar-width: none;
+}
+
+.snaps-inline>* {
+    scroll-snap-align: start;
+}
+
+.cat-asper div{
+    box-shadow: 0 4px 6px 0 rgb(204, 204, 204);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cat-asper button{
+    border: none;
+    padding: .5rem;
+    position: relative;
+    top: 80%;
+    transform: translateY(-50%);
+    background-color: rgb(0, 0, 128);
+    color: white;
+    border-radius: 10%;
+}
+
+.cat-asper-1{
+    background-image: url(img/CONECTORMICRONETGRMACHO.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.cat-asper-2{
+    background-image: url(img/ESTABILIZADORP-TUBO.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.cat-asper-3{
+    background-image: url(img/MICROTUBOCONESTABILIZADOR.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.cat-asper-4{
+    background-image: url(img/SPINNET.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.cat-asper-5{
+    background-image: url(img/SUPERNET.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.cat-asper-6{
+    background-image: url(img/ESTACA+TUBINP-GYRONET.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
 
 @media screen and (min-width:767px) {
 
@@ -518,6 +608,56 @@
     }
 
     .left:hover, .right:hover{
+        background-color: rgba(128, 128, 128, 0.726);
+        color: white;
+    }
+
+    /*Aspersion*/
+    .cat-asper{
+        grid-template-columns: repeat(6, 18rem);
+        grid-template-rows: 23rem;
+    }
+
+
+    .cat-asper div{
+        transition: .4s ease-in-out;
+    }
+
+    .cat-asper div:hover{
+        scale: 1.04;
+    }
+
+    .left-asper{
+        background: rgba(207, 207, 207, 0.637);     
+        position: absolute;
+        padding: 1rem;
+        top: 60%;
+        transform: translateY(-50%);
+        border-radius: 40%;
+        z-index: 999;
+        left: 10px;
+        font-size: 1.5rem;
+        border: none;
+        transition: .4s;
+        display: block;
+    }
+
+    .right-asper{
+        background: rgba(207, 207, 207, 0.637);
+        position: absolute;
+        padding: 1rem;
+        top: 60%;
+        transform: translateY(-50%);
+        border-radius: 40%;
+        z-index: 999;
+        right: 10px;
+        font-size: 1.5rem;
+        border: none;
+        transition: .4s;
+        display: block;
+    }
+
+    .left-asper:hover, .right-asper:hover{
         background-color: rgba(128, 128, 128, 0.726);
         color: white;
     }
