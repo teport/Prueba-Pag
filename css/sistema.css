@@ -426,7 +426,7 @@
 }
 
 .cat-asper-1{
-    background-image: url(img/CONECTORMICRONETGRMACHO.jpg);
+    background-image: url(../img/CONECTORMICRONETGRMACHO.jpg);
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
@@ -434,7 +434,7 @@
 }
 
 .cat-asper-2{
-    background-image: url(img/ESTABILIZADORP-TUBO.jpg);
+    background-image: url(../img/ESTABILIZADORP-TUBO.jpg);
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
@@ -442,7 +442,7 @@
 }
 
 .cat-asper-3{
-    background-image: url(img/MICROTUBOCONESTABILIZADOR.jpg);
+    background-image: url(../img/MICROTUBOCONESTABILIZADOR.jpg);
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
@@ -450,7 +450,7 @@
 }
 
 .cat-asper-4{
-    background-image: url(img/SPINNET.jpg);
+    background-image: url(../img/SPINNET.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -458,7 +458,7 @@
 }
 
 .cat-asper-5{
-    background-image: url(img/SUPERNET.jpg);
+    background-image: url(../img/SUPERNET.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -466,7 +466,7 @@
 }
 
 .cat-asper-6{
-    background-image: url(img/ESTACA+TUBINP-GYRONET.jpg);
+    background-image: url(../img/ESTACA+TUBINP-GYRONET.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
