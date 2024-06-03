@@ -165,6 +165,8 @@
 
     <section class="produ">
         <h1>Cuida tus <strong style="font-size: clamp(2.5rem, 6vw, 4rem);">Cultivos</strong> con los Mejores</h1>
+        <button class="left"> < </button>
+        <button class="right"> > </button>
         <div class="menu snaps-inline">
             <a href="https://teport.github.io/Prueba-Pag/html/agroquimicos.html" class="menu-1">
                 <div class="capa"></div>
@@ -265,3 +267,25 @@
 </footer>
 </body>
 </html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const container = document.querySelector('.menu');
+        const leftArrow = document.querySelector('.left');
+        const rightArrow = document.querySelector('.right');
+
+        leftArrow.addEventListener('click', function () {
+            container.scrollBy({
+                left: -container.clientWidth,
+                behavior: 'smooth'
+            });
+        });
+
+        rightArrow.addEventListener('click', function () {
+            container.scrollBy({
+                left: container.clientWidth,
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
