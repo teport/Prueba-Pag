@@ -490,6 +490,10 @@ justify-content: space-between;
   .pie-pagina .grupo-2 small{
     font-size: 1rem;
   }
+
+.left, .right{
+  display: none;
+}
   
   @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
@@ -575,6 +579,47 @@ text-align: left;
         color: rgb(255, 255, 255);
         background: #2118ff;
     }
+
+    .produ{
+    position: relative;
+  }
+
+  .left{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 1rem;
+    z-index: 999;
+    left: 10px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    background-color: rgba(238, 238, 238, 0.63);
+    color: rgb(0, 0, 0);
+    transition: .2s ease-in-out;
+    display: block;
+  }
+
+  .right{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 1rem;
+    z-index: 999;
+    right:10px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    background-color: rgba(238, 238, 238, 0.63);
+    color: rgb(0, 0, 0);
+    transition: .4s all;
+    display: block;
+  }
+
+  .left:hover, .right:hover{
+    background: rgba(187, 187, 187, 0.808);
+    scale: 1.04;
+  } 
 
 
 @media screen and (width <= 1061px){
