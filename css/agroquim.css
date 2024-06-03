@@ -250,7 +250,10 @@ justify-content: space-between;
   scroll-padding: 0 2rem ;
   scroll-behavior: smooth;
   padding: 1.5rem 2rem;
-  
+}
+
+.menu a{
+    box-shadow: 0 4px 6px 0 rgb(228, 228, 228);
 }
 
 .snaps-inline {
@@ -262,7 +265,6 @@ justify-content: space-between;
 }
 
 .menu-1{
-  box-shadow: 0 0 12px rgb(105, 105, 105);
   text-align: center;
   border-radius: .7rem;
   background: url(../img/agroquimicoss.webp);
@@ -308,7 +310,6 @@ justify-content: space-between;
 }
 
 .menu-2{
-  box-shadow: 0 0 12px rgb(105, 105, 105);
   text-align: center;
   border-radius: .7rem;
   background: url(../img/fericidas.webp);
@@ -320,7 +321,6 @@ justify-content: space-between;
 }
 
 .menu-3{
-  box-shadow: 0 0 12px rgb(105, 105, 105);
   text-align: center;
   border-radius: .7rem;
   background: url(../img/fuggggg.jpg);
@@ -332,7 +332,6 @@ justify-content: space-between;
 }
 
 .menu-4{
-  box-shadow: 0 0 12px rgb(105, 105, 105);
   text-align: center;
   border-radius: .7rem;
   background: url(../img/bioestimulante.jpg);
@@ -345,7 +344,6 @@ justify-content: space-between;
 
 
 .menu-5{
-  box-shadow: 0 0 12px rgb(105, 105, 105);
   position: relative;
   text-align: center;
   border-radius: .7rem;
@@ -357,7 +355,6 @@ justify-content: space-between;
 }
 
 .menu-6{
-  box-shadow: 0 0 12px rgb(105, 105, 105);
   position: relative;
   text-align: center;
   border-radius: .7rem;
