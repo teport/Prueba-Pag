@@ -70,9 +70,139 @@
     font-size: .9rem;
 }
 
+.ul-screen{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.li-screen{
+    margin: .7rem 0;
+    position: relative;
+}
+
+.li-screen h2{
+    color: rgb(0, 0, 128);
+    padding: 0rem 0;
+    font-size: clamp(1.2rem, 1vw, 1.2rem);
+}
+
+.li-screen p {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.li-screen::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 0, 128);
+    position: absolute;
+    top: 1px;
+}
+
+.screen-btn {
+    padding: 1rem 1.2rem;
+    border: none;
+    background-color: rgb(0, 0, 128);
+    border-radius: 10px;
+    color: white;
+    font-size: .9rem;
+}
+
+.card-big{
+    margin: 4rem 0 6rem;
+}
+
+.card-max{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 16rem;
+    grid-template-rows: repeat(3, 18rem);
+    justify-content: center;
+    gap: 5rem;
+    margin: 2rem 0;
+    background-color: rgba(231, 231, 231, 0.205);
+}
+
+
+.card-1{
+    background-image: url(img/RAFIA2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 6px 0 rgb(204, 204, 204);
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.card-2{
+    background-image: url(img/RAFIA2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 6px 0 rgb(204, 204, 204);
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+}
+
+.card-3{
+    background-image: url(img/RAFIA2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    box-shadow: 0 4px 6px 0 rgb(204, 204, 204);
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.card-max div{
+    background-color: rgba(0, 0, 128, 0.897);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+    padding: .5rem 3rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.card-max div h1{
+    font-size: 1.5rem;
+}
+
+.card-big-txt{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.card-big-txt h1{
+    color: rgb(0, 0, 128);
+    margin: 0;
+    font-weight: 700;
+    font-size: clamp(2.4rem, 4vw, 4rem);
+}
+
+.card-big-txt small{
+    color: green;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+}
+
 @media screen and (min-width:750px){
     .screen{
         height: 100vh;
+    }
+
+    .card-max{
+        grid-template-columns: repeat(2,16rem);
+        grid-template-rows: repeat(2,18rem);
     }
 }
 
@@ -109,4 +239,9 @@
         background-color: rgb(0, 0, 128);
         color: white;
       }
+
+    .card-max{
+        grid-template-columns: repeat(3,22rem);
+        grid-template-rows: 25rem;
+    }
 }
