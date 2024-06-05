@@ -127,7 +127,7 @@
 
 
 .card-1{
-    background-image: url(img/RAFIA2.png);
+    background-image: url(../img/RAFIA2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@
 }
 
 .card-2{
-    background-image: url(img/RAFIA2.png);
+    background-image: url(../img/RAFIA2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,7 +152,7 @@
 }
 
 .card-3{
-    background-image: url(img/RAFIA2.png);
+    background-image: url(../img/RAFIA2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
