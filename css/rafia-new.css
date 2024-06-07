@@ -254,14 +254,23 @@
       transform: translateX(-100%);
     }
   }
+
+@keyframes slide-2 {
+    from{
+      transform: translateX(-100%);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
   
   .logo{
     overflow: hidden;
     padding: 0px 0;
-    background-color: rgb(249 249 249);
+    background-color: rgb(226, 226, 226);
     white-space: nowrap;
     position: relative;
-    margin: 4rem 0;
+    margin: 0rem 0;
     padding-bottom: 3rem;
   }
   
@@ -295,9 +304,9 @@
     z-index: 2;
   }
   
-  .logo:hover .logos-slide{
+ /* .logo:hover .logos-slide{
     animation-play-state: paused;
-  }
+  }*/
   
   .logos-slide{
     display: inline-block;
@@ -311,14 +320,101 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px 0 rgb(153, 153, 153);
     background-color: white;
+}
+
+a{
+    position: relative;
+    
+}
+
+a::after{
+    content: "";
+    width: 10px;
+    top: -40px;
+    height: 2px;
+    position: absolute;
+    background-color: blue;
+    right: 0;
+}
+
+
+
+
+.logo-2{
+    overflow: hidden;
+    padding: 0px 0;
+    background-color: rgb(226, 226, 226);
+    white-space: nowrap;
+    position: relative;
+    margin: 0rem 0;
+    padding-bottom: 3rem;
   }
+  
+  .logo-2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    background:linear-gradient(to left, rgba(255,255,255,0), white);
+    z-index: 2;
+  }
+  
+  .logo-2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background:linear-gradient(to right, rgba(255,255,255,0), white);
+    z-index: 2;
+  }
+  
+  /*
+  .logo-2:hover .logos-slide-2{
+    animation-play-state: paused;
+  }*/
+  
+  .logos-slide-2{
+    display: inline-block;
+    animation: 25s slide-2 infinite linear;
+  }
+  
+  .logos-slide-2 img{
+    height: 90px;
+    padding: 1rem;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 0 rgb(153, 153, 153);
+    background-color: white;
+}
+
+a{
+    position: relative;
+    
+}
+
+a::after{
+    content: "";
+    width: 10px;
+    top: -40px;
+    height: 2px;
+    position: absolute;
+    background-color: blue;
+    right: 0;
+}
+
+
+
 
 @media screen and (min-width:750px) {
-    .logos-slide img{
+    .logos-slide img, .logos-slide-2 img{
         height: 120px;
     }
 
-    .logo::after{
+    .logo::after, .logo-2::after{
         content: "";
         position: absolute;
         top: 0;
@@ -329,7 +425,7 @@
         z-index: 2;
       }
 
-      .logo::before{
+      .logo::before, .logo-2::before{
         content: "";
         position: absolute;
         top: 0;
@@ -342,12 +438,12 @@
 }
 
 @media screen and (min-width:1250px){
-    .logo::after{
+    .logo::after, .logo-2::after{
         width: 250px;
         height: 100%;
       }
 
-      .logo::before{
+      .logo::before, .logo-2::before{
         width: 250px;
         height: 100%;
       }
