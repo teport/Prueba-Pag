@@ -327,19 +327,6 @@ a{
     
 }
 
-a::after{
-    content: "";
-    width: 10px;
-    top: -40px;
-    height: 2px;
-    position: absolute;
-    background-color: blue;
-    right: 0;
-}
-
-
-
-
 .logo-2{
     overflow: hidden;
     padding: 0px 0;
