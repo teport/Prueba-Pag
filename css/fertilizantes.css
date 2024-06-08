@@ -177,35 +177,191 @@ justify-content: space-between;
   grid-column: 4/6;
 }
 
-.txt{
-  text-align: center;
-  font-size: clamp(2.7rem, 6vw, 5rem);
-  padding: 1rem 1rem 3rem;
-  color: rgb(0, 0, 128);
+
+
+.sec-cuadros{
+    margin: 8rem 0 0;
+    text-align: center;
+    background-color: rgb(0, 0, 95);
+  }
+  
+  .sec-cuadros-txt{
+    padding: 2rem;
+  }
+  
+  .sec-cuadros-txt h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .sec-cuadros-txt p{
+    color: rgb(224, 224, 224);
+  }
+  
+  .cuadros{
+    padding: 1rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .cuadro-son{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .cuadro-son h1{
+    padding-bottom: .5rem;
+    font-size: 1.7rem;
+    color: rgb(0, 0, 128);
+  }
+  
+  .cuadro-son p{
+    padding-bottom: 1rem;
+  }
+  
+  .cuadro-son-txt{
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .cuadro-son-txt ul{
+    list-style: none;
+  }
+  
+  .cuadro-son-txt li{
+    padding-bottom: .5rem;
+    color: rgb(0, 0, 128);
+    font-weight: 700;
+  }
+
+  @media screen and (max-width:650px){
+    .cuadros{
+      grid-template-columns: 1fr;
+      padding: 0 1rem;
+    }
+  }
+
+  @media screen and (min-width:650px) and (max-width:1250px){
+    .cuadros{
+      grid-template-columns: 1fr 1fr;
+
+    }
+  }
+
+  @keyframes slide {
+    from{
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logo{
+    overflow: hidden;
+    padding: 0px 0;
+    white-space: nowrap;
+    position: relative;
+    margin: 3rem 0 0;
+    padding-bottom: 3rem;
+  }
+  
+  .logo h1{
+    text-align: center;
+    padding: 3rem 0;
+    color: rgb(0, 0, 128);
+    font-size: clamp(2.4rem, 4vw, 4rem);
+    font-weight: 800;
+  }
+  
+  .logo::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    background:linear-gradient(to left, rgba(0, 0, 128, 0.096), rgba(0, 0, 128, 0.856));
+    z-index: 2;
+  }
+  
+  .logo::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background:linear-gradient(to right, rgba(0, 0, 128, 0.096), rgba(0, 0, 128, 0.856));
+    z-index: 2;
+  }
+  
+ /* .logo:hover .logos-slide{
+    animation-play-state: paused;
+  }*/
+  
+  .logos-slide{
+    display: inline-block;
+    animation: 25s slide infinite linear;
+  }
+  
+  .logos-slide img{
+    height: 90px;
+    padding: 1rem;
+    margin: 0 20px;
+    border-radius: 10px;
+    /*
+    box-shadow: 0 4px 6px 0 rgb(153, 153, 153);
+    background-color: white;*/
 }
 
-.prov{
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 50% 50%;
-  gap: 0rem;
+a{
+    position: relative;
+    
 }
 
-.prov-img{
-  position: relative;
-  border: .1rem solid;
-  margin: 1rem;
-  border-radius: 1rem;
+
+@media screen and (min-width:750px) {
+    .logos-slide img{
+        height: 120px;
+    }
+
+    .logo::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 150px;
+        height: 100%;
+        z-index: 2;
+      }
+
+      .logo::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 100%;
+        z-index: 2;
+      }
 }
 
-.prov-img img{
-  position: relative;
-  width: 100%;
-  padding: 1rem;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
+@media screen and (min-width:1250px){
+    .logo::after{
+        width: 250px;
+        height: 100%;
+      }
+
+      .logo::before{
+        width: 250px;
+        height: 100%;
+      }
 }
+
 
 @media screen and (min-width:750px) {
   .agro{
@@ -217,9 +373,7 @@ justify-content: space-between;
     grid-column: 1/3;
   }
 
-  .prov{
-    grid-template-columns: repeat(4,1fr);
-  }
+
 }
 
 @media screen and (min-width:1100px){
@@ -238,17 +392,7 @@ justify-content: space-between;
   .agro-2:nth-child(3){
     grid-column: 1/4;
   }
-.prov{
-    grid-template-columns: repeat(5,1fr);
-  }
 
-  .prov-img{
-    transition: 1.4s;
-  }
-
-  .prov-img:hover{
-    scale: 1.04;
-  }
 }
 
 
