@@ -260,7 +260,7 @@ justify-content: space-between;
     }
   }
   
-  .logo{
+  .logo-1{
     overflow: hidden;
     padding: 0px 0;
     white-space: nowrap;
@@ -269,7 +269,7 @@ justify-content: space-between;
     padding-bottom: 3rem;
   }
   
-  .logo h1{
+  .logo-1 h1{
     text-align: center;
     padding: 3rem 0;
     color: rgb(0, 0, 128);
@@ -277,7 +277,7 @@ justify-content: space-between;
     font-weight: 800;
   }
   
-  .logo::before{
+  .logo-1::before{
     content: "";
     position: absolute;
     top: 0;
@@ -288,7 +288,7 @@ justify-content: space-between;
     z-index: 2;
   }
   
-  .logo::after{
+  .logo-1::after{
     content: "";
     position: absolute;
     top: 0;
@@ -329,7 +329,7 @@ a{
         height: 120px;
     }
 
-    .logo::after{
+    .logo-1::after{
         content: "";
         position: absolute;
         top: 0;
@@ -339,7 +339,7 @@ a{
         z-index: 2;
       }
 
-      .logo::before{
+      .logo-1::before{
         content: "";
         position: absolute;
         top: 0;
@@ -351,12 +351,12 @@ a{
 }
 
 @media screen and (min-width:1250px){
-    .logo::after{
+    .logo-1::after{
         width: 250px;
         height: 100%;
       }
 
-      .logo::before{
+      .logo-1::before{
         width: 250px;
         height: 100%;
       }
