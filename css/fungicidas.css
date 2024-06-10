@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(../img/fuggggg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.head{
+  background: rgba(228, 228, 228, 0);
+  z-index: 999;
+  position: relative;
+}
+
+.head-1{
+display: flex;
+justify-content: center;
+}
+
+.nav{
+  position: absolute;
+  z-index: 999;
+
+}
+
+.nav-2{
+position: absolute;
+display: none;
+opacity: 0;
+}
+
+.logo{
+  max-width: 13rem;
+}
+
+
+
+.nav-list{
+  display: flex;
+  list-style-type: none;
+  gap: 6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.nav-list-2{
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+
+.abrir-menu{
+  display: none;
+}
+
+
+.cerrar-menu{
+  display: none;
+}
+
+.abrir-menu{
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+}
+
+.cerrar-menu{
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background: rgba(255, 255, 255, 0);;
+}
+
+.cerrar-menu img, .cerrar-menu img{
+  width: 2rem;
+}
+
+.btn-img{
+  z-index: 999;
+  width: 2rem;
+}
+
+/*Logo centrado*/
+header .fav{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vh;
+  z-index: 998;
+}
+
+.logo-res{
+width: clamp(10rem, 3vw, 15rem);
+position: relative;
+display: none;
+}
+
+.equ{
+  z-index: 999;
+display: flex;
+padding:  1rem;
+align-items: center;
+justify-content: space-between;
+}
+
+.def-general{
+  background-image: url(https://grupochamartin.com/wp-content/uploads/2020/09/cultivos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  position: relative;
+  margin:5rem 0;
+}
+
+.defin{
+  background-color: white;
+  position: relative;
+  padding: 2rem;
+}
+
+.defin-txt-1{
+  padding: 1rem;
+}
+
+.defin-txt-1 h1{
+  font-size: 4rem;
+  color: rgb(0, 0, 128);  
+}
+
+.defin-txt-1 small{
+  font-size: 1.5rem;
+  color: rgb(0, 191, 0);
+}
+
+.defin-par{
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.defin-apli{
+  padding: 1rem;
+}
+
+.defin-apli h1{
+  text-align: left;
+  font-size: 3.7rem;
+  color: rgb(0, 0, 128);  
+  padding: 1rem 0;
+}
+
+.defin-apli ul{
+  text-align: left;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.defin-apli li{
+  padding: 1rem 0rem;
+}
+
+.defin-apli h2{
+  color: rgb(0, 191, 0);
+  padding-bottom: .5rem;
+}
+
+.defin-apli p{
+  font-size: 20px;
+}
+
+
+
+
+
+.sec-cuadros{
+    margin: 0rem 0 0;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .sec-cuadros-txt{
+    padding: 2rem;
+  }
+  
+  .sec-cuadros-txt h1{
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    color: rgb(0, 0, 128);
+  }
+  
+  .sec-cuadros-txt p{
+    color: rgb(0, 191, 0);
+  }
+  
+  .cuadros{
+    padding: 1rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .cuadro-son{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 128);
+  }
+  .cuadro-son h1{
+    padding-bottom: .5rem;
+    font-size: 1.7rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .cuadro-son p{
+    padding-bottom: 1rem;
+    color: white;
+  }
+  
+  .cuadro-son-txt{
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .cuadro-son-txt ul{
+    list-style: none;
+  }
+  
+  .cuadro-son-txt li{
+    padding-bottom: .5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+
+  @media screen and (max-width:650px){
+    .cuadros{
+      grid-template-columns: 1fr;
+      padding: 0 1rem;
+    }
+  }
+
+  @media screen and (min-width:650px) and (max-width:1250px){
+    .cuadros{
+      grid-template-columns: 1fr 1fr;
+
+    }
+  }
+
+  @keyframes slide {
+    from{
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logo-1{
+    overflow: hidden;
+    padding: 0px 0;
+    white-space: nowrap;
+    position: relative;
+    margin: 3rem 0 0;
+    padding-bottom: 3rem;
+  }
+  
+  .logo-1 h1{
+    text-align: center;
+    padding: 3rem 0;
+    color: rgb(0, 0, 128);
+    font-size: clamp(2.4rem, 4vw, 4rem);
+    font-weight: 800;
+  }
+  
+  .logo::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    background:linear-gradient(to left, rgba(0, 0, 128, 0.096), rgba(0, 0, 128, 0.856));
+    z-index: 2;
+  }
+  
+  .logo::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background:linear-gradient(to right, rgba(0, 0, 128, 0.096), rgba(0, 0, 128, 0.856));
+    z-index: 2;
+  }
+  
+ /* .logo:hover .logos-slide{
+    animation-play-state: paused;
+  }*/
+  
+  .logos-slide{
+    display: inline-block;
+    animation: 25s slide infinite linear;
+  }
+  
+  .logos-slide img{
+    height: 90px;
+    padding: 1rem;
+    margin: 0 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 6px 0 rgb(153, 153, 153);
+    background-color: white;
+  }
+
+a{
+    position: relative;
+    
+}
+
+
+@media screen and (min-width:750px) {
+    .logos-slide img{
+        height: 120px;
+    }
+
+    .logo-1::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 150px;
+        height: 100%;
+        z-index: 2;
+      }
+
+      .logo-1::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 100%;
+        z-index: 2;
+      }
+}
+
+@media screen and (min-width:1250px){
+    .logo-1::after{
+        width: 250px;
+        height: 100%;
+      }
+
+      .logo-1::before{
+        width: 250px;
+        height: 100%;
+      }
+}
+  
+@media screen and (width <= 1061px){
+
+
+  .logo-res{
+    display: block;
+  }
+
+  .intro-p{
+      line-height: 2.3rem;
+  }
+
+  .abrir-menu,.cerrar-menu{
+    display: block;
+  }
+
+  .abrir-menu{
+      position: relative;
+      
+  }
+
+  .nav{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+
+  .nav-2{
+  display: none;
+    opacity:0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.6rem 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .2);
+    z-index: 999;
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    visibility: hidden;
+  }
+
+  .logo{
+      position: relative;
+      left: -3rem;
+      display: none;
+  }
+
+  .nav-2.visible{
+    opacity: 20;
+    visibility: visible;
+    background: rgb(0, 0, 128);
+    height: 100vh;
+    z-index: 1;
+  }
+
+  .nav-list-2{
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+    position: relative;
+  }
+
+  .nav-list-2 li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  .mapadiv{
+      width: 100%;
+      left: -10px;
+  }
+}
+
+
+.pie-pagina{
+  margin-top: 10rem;
+  width: 100%;
+  background: rgb(0, 0, 128);
+}
+
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+  color: white;
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+}
+
+.pie-pagina .grupo-1 .box p{
+  color: white;
+  margin-bottom: .8rem;
+}
+
+
+.pie-pagina .grupo-1 .red-social{
+  display: flex;
+  flex-direction: column;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+  text-decoration: none;
+  color: white;
+  margin-left: 0;
+}
+
+.pie-pagina .grupo-2{
+  background: rgb(1, 1, 59);
+  padding: 1rem .7rem;
+  text-align: center;
+  color: white;
+} 
+
+.pie-pagina .grupo-2 small{
+  font-size: 1rem;
+}
+
+@media screen and (max-width:800px){
+  .pie-pagina .grupo-1{
+     grid-template-columns: 1fr;
+  }
+}
