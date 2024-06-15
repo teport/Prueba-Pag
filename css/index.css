@@ -160,6 +160,19 @@ header .fav {
 }
 
 
+.chatbot{
+    background-color: rgb(0, 0, 128);
+    padding: 1rem;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 999;
+    bottom: 25px;
+    right: 50px;
+    position: fixed;
+    height: 4.5rem;
+  }
+
+
 /*Card Principal*/
 
 .tit {
