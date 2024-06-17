@@ -167,7 +167,7 @@ header .fav {
     position: absolute;
     z-index: 999;
     bottom: 25px;
-    right: 50px;
+    right: 25px;
     position: fixed;
     height: 4.5rem;
   }
