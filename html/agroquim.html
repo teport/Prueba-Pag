@@ -1,186 +1,291 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agroquímicos</title>
-    <link rel="stylesheet" href="../css/agroquim-2.css">
+    <title>Agroquimicos</title>
+    <link rel="stylesheet" href="../css/agroquim.css">
     <link rel="icon" href="../img/favicon2.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
 </head>
-
 <body>
-    <header>
-        <!-- Video de fondo -->
-        <!-- Barra de Navegación -->
+<header>
         <div class="head">
-            <div class="equ">
-                <img src="../img/favicon.png" class="logo-res" alt="Logo">
-                <button id="abrir" class="abrir-menu">
-                    <img src="../fotos/iconizer-justify.svg" alt="Abrir menú" class="btn-img">
-                </button>
-            </div>
-            <div class="head-1">
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="http://127.0.0.1:5500/index.html">Inicio</a></li>
-                        <li><a href="http://127.0.0.1:5500/index.html#presencia">Presencia</a></li>
-                        <li><a href="http://127.0.0.1:5500/index.html"><img src="../img/favicon.png" class="logo"
-                                    alt="Logo"></a></li>
-                        <li><a href="http://127.0.0.1:5500/index.html#servicios">Servicios</a></li>
-                        <li><a href="http://127.0.0.1:5500/his.html" target="_blank" rel="noreferrer">Nosotros</a></li>
-                    </ul>
-                </nav>
-                <!-- Barra lateral responsive -->
-                <nav class="nav-2" id="nav-2">
-                    <button id="cerrar" class="cerrar-menu">
-                        <img src="../fotos/iconizer-x-lg.svg" alt="Cerrar menú">
-                    </button>
-                    <ul class="nav-list-2">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#presencia">Presencia</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="http://127.0.0.1:5500/his.html">Historia</a></li>
-                    </ul>
-                </nav>
+      <div class="equ">
+          <img src="../img/favicon.png"  class="logo-res">
+          <button id="abrir" class="abrir-menu">
+              <img id="" src="../fotos/iconizer-justify.svg" alt="" class="btn-img">
+          </button>
+      </div>    
+      <div class="head-1">
+      <nav class="nav">
+      <ul class="nav-list">
+               <li><a href="https://teport.github.io/Prueba-Pag/">Inicio</a></li>
+                  <li><a href="https://teport.github.io/Prueba-Pag/#presencia">Presencia</a></li>
+                  <li><a href="https://teport.github.io/Prueba-Pag/"><img src="../img/favicon.png" class="logo" alt="" ></a></li>
+                  <li><a href="https://teport.github.io/Prueba-Pag/#servicios">Servicios</a></li>
+                  <li><a href="https://teport.github.io/Prueba-Pag/html/his.html#" target="_blank" rel="noreferrer">Nosotros</a></li>
+      </ul>
+      </nav>
+      <!--Barra lateral responsive-->
+      <nav class="nav-2" id="nav-2">
+          <button id="cerrar" class="cerrar-menu">
+              <img src="../fotos/iconizer-x-lg.svg" alt="">
+          </button>
+          <ul class="nav-list-2">
+                   <li><a href="https://teport.github.io/Prueba-Pag/">Inicio</a></li>
+                  <li><a href="https://teport.github.io/Prueba-Pag/#presencia">Presencia</a></li>
+                  <li><a href="https://teport.github.io/Prueba-Pag/#servicios">Servicios</a></li>
+                  <li><a href="https://teport.github.io/Prueba-Pag/html/his.html#" target="_blank" rel="noreferrer">Nosotros</a></li>
+          </ul>
+      </nav>
+      </div>
+   </div>
+
+        <!-- Titulo -->
+        <div class="tit">
+            <div class="tit-1">
+                <h1>Agroquimicos</h1>
+                <p>Cuidando tus Cultivos</p>
+                <button type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contactanos</button>
+                <button class="btn">Ver Distribuidores</button>
             </div>
         </div>
-        <h1 class="fav"><strong style="font-size: clamp(2rem, 2vw + 3rem, 6rem); color: white;">Agroquímicos</strong> <br>Cuidando tus
-            Cultivos</h1>
     </header>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Contactanos</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
 
-    <main>
-        <section class="guar">
-            <div class="guar-1">
-                <div class="guar-1-1">
-                    <h1>Guardianes de la Cosecha</h1>
-                    <small>Los Agroquímicos y su Rol Vital en la Agricultura</small>
+                <div class="col-lg-12 contact-form__wrapper p-2 order-lg-1">
+                    <form action="#" class="contact-form form-validate" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-mdf-12 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="firstName">Nombre</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName"
+                                        placeholder="Sergio">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 mb-3">
+                                <div class="form-group">
+                                    <label for="lastName">Apellido</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName"
+                                        placeholder="Pérez">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="required-field" for="email">Email</label>
+                                    <input type="text" class="form-control" id="email" name="email"
+                                        placeholder="nombre@ejemplo.com">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 mb-3 ">
+                                <div class="form-group">
+                                    <label for="phone">Número Celular</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone"
+                                        placeholder="(493)-123-4567">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="message">En que podemos ayudarte?</label>
+                                    <textarea class="form-control" id="message" name="message" rows="4"
+                                        placeholder="Hola a todos, me gustaria....."></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 mb-3">
+                                </div>
+                                <div class="col-sm-12 mb-3">
+                                    <p></p>
+                                    <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </div>
 
-            <div class="guar-2">
-                <p>
-                    En el mundo actual, la producción agrícola se enfrenta a desafíos constantes: desde el aumento de la demanda alimentaria hasta la necesidad de maximizar los rendimientos en tierras cada vez más limitadas. En este contexto, los agroquímicos desempeñan un papel crucial.
-                    <br>
-                    Los agroquímicos son productos químicos diseñados específicamente para su uso en la agricultura. Comprenden una amplia gama de compuestos, incluidos herbicidas, pesticidas, fungicidas, fertilizantes y reguladores del crecimiento de las plantas. Su aplicación adecuada puede aumentar la productividad, proteger los cultivos de plagas y enfermedades, y contribuir a la seguridad alimentaria global.
-                </p>
-            </div>
-        </section>
-
-        <section class="impor">
-            <div class="impor-sub">
-                <div class="impor-1">
-                    <h1>La Importancia del <strong style="color: green;">Cuidado de los Cultivos</strong></h1>
-                    <p>El cuidado de los cultivos es esencial para garantizar la seguridad alimentaria, mantener la salud del
-                        suelo y preservar la biodiversidad. A través de prácticas de manejo sostenible, como el uso adecuado de
-                        fertilizantes y pesticidas, podemos asegurar una producción de alimentos continua y proteger nuestros
-                        recursos naturales para las futuras generaciones.</p>
-                    <button>Ver Más</button>
-                    <br>
-                </div>
-                <div class="impor-2">
-                </div>
-            </div>
-        </section>
-
-        <section class="produ">
-            <h1>Cuida tus <strong style="font-size: clamp(2.5rem, 6vw, 4rem);">Cultivos</strong> con los Mejores</h1>
-            <div class="menu snaps-inline">
-                <section class="menu-1">
-                    <div class="capa"></div>
-                    <div class="menu-1-1">
-                        <h2>Agroquímicos</h2>
-                        <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
-                            mejor calidad. ¡Únete para resultados sorprendentes!</p>
-                    </div>
-                </section>
-                <section class="menu-2">
-                    <div class="capa"></div>
-                    <div class="menu-1-1">
-                        <h2>Fertilizantes</h2>
-                        <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
-                            mejor calidad. ¡Únete para resultados sorprendentes!</p>
-                    </div>
-                </section>
-                <section class="menu-3">
-                    <div class="capa"></div>
-                    <div class="menu-1-1">
-                        <h2>Fungicidas</h2>
-                        <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
-                            mejor calidad. ¡Únete para resultados sorprendentes!</p>
-                    </div>
-                </section>
-                <section class="menu-4">
-                    <div class="capa"></div>
-                    <div class="menu-1-1">
-                        <h2>Bioestimulantes</h2>
-                        <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
-                            mejor calidad. ¡Únete para resultados sorprendentes!</p>
-                    </div>
-                </section>
-                <section class="menu-5">
-                    <div class="capa"></div>
-                    <div class="menu-1-1">
-                        <h2>Insecticidas</h2>
-                        <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
-                            mejor calidad. ¡Únete para resultados sorprendentes!</p>
-                    </div>
-                </section>
-                <section class="menu-6">
-                    <div class="capa"></div>
-                    <div class="menu-1-1">
-                        <h2>Herbicidas</h2>
-                        <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
-                            mejor calidad. ¡Únete para resultados sorprendentes!</p>
-                    </div>
-                </section>
-            </div>
-        </section>
-    </main>
-
-    <footer class="pie-pagina">
-        <div class="grupo-1">
-            <div class="box">
-                <figure>
-                    <a href="#">
-                        <img src="../img/favicon.png" alt="Logo">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>Nuestra Identidad</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus velit, quo aut dignissimos nulla porro! Expedita quis tempora eaque?</p>
-            </div>
-            <div class="box">
-                <h2>Contáctanos</h2>
-                <div class="red-social">
-                    <a href="tel:493-89-78-874">Teléfono: 493-89-78-874</a>
-                    <a href="mailto:Apb@gmail.com">Correo: Apb@gmail.com</a>
-                </div>
             </div>
         </div>
-        <div class="grupo-2">
-            <small>&copy;2024 <b>CopyRight con una licencia</b></small>
+    </div>
+</div>
+  <!--Aqui se acaba-->
+
+<main>
+     <section class="guar">
+        <div class="guar-1">
+          <div class="guar-1-1">
+          <h1>Guardianes de la Cosecha</h1>
+          <small> Los Agroquímicos y su Rol Vital en la Agricultura</small>
+          </div>
         </div>
-    </footer>
+      
+        <div class="guar-2">
+          <p>
+            En el mundo actual, la producción agrícola se enfrenta a desafíos constantes: desde el aumento de la demanda alimentaria hasta la necesidad de maximizar los rendimientos en tierras cada vez más limitadas. En este contexto, los agroquímicos desempeñan un papel crucial.
+      <br>
+            Los agroquímicos son productos químicos diseñados específicamente para su uso en la agricultura. Comprenden una amplia gama de compuestos, incluidos herbicidas, pesticidas, fungicidas, fertilizantes y reguladores del crecimiento de las plantas. Su aplicación adecuada puede aumentar la productividad, proteger los cultivos de plagas y enfermedades, y contribuir a la seguridad alimentaria global.
+          </p>
+        </div>
+      </section>
+    
+    <section class="impor">
+        <div class="impor-sub">
+            <div class="impor-1">
+                <h1>La Importancia del <strong style="color: green;">Cuidado a los Cultivos</strong></h1>
+                <p>El cuidado de los cultivos es esencial para garantizar la seguridad alimentaria, mantener la salud del
+                    suelo y preservar la biodiversidad. A través de prácticas de manejo sostenible, como el uso adecuado de
+                    fertilizantes y pesticidas, podemos asegurar una producción de alimentos continua y proteger nuestros
+                    recursos naturales para las futuras generaciones.</p>
+                <button> Ver Mas </button>
+                <br>
+    
+            </div>
+            <div class="impor-2">
+               
+            </div>
+        </div>
+    </section>
 
-    <script>
-        const nav = document.querySelector("#nav-2");
-        const abrir = document.querySelector("#abrir");
-        const cerrar = document.querySelector("#cerrar");
+    <section class="produ">
+        <h1>Cuida tus <strong style="font-size: clamp(2.5rem, 6vw, 4rem);">Cultivos</strong> con los Mejores</h1>
+        <button class="left"> < </button>
+        <button class="right"> > </button>
+        <div class="menu snaps-inline">
+            <a href="https://teport.github.io/Prueba-Pag/html/agroquimicos.html" class="menu-1">
+                <div class="capa"></div>
+                <div class="menu-1-1">
+                    <h2>Agroquimicos</h2>
+                    <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
+                        mejor
+                        calidad. ¡Únete para resultados sorprendentes!</p>
+                </div>
+            </a>
+            <a href="https://teport.github.io/Prueba-Pag/html/fertilizantes.html" class="menu-2">
+              <div class="capa"></div>
+                <div class="menu-1-1">
+                    <h2>Fertilizantes</h2>
+                    <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
+                        mejor
+                        calidad. ¡Únete para resultados sorprendentes!</p>
+                </div>
+            </a>
+            <a href="https://teport.github.io/Prueba-Pag/html/fungicidas.html" class="menu-3">
+                <div class="capa"></div>
+                <div class="menu-1-1">
+                    <h2>Fungicidas</h2>
+                    <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
+                        mejor
+                        calidad. ¡Únete para resultados sorprendentes!</p>
+                </div>
+            </a>
+            <a href="" class="menu-4">
+                <div class="capa"></div>
+                <div class="menu-1-1">
+                    <h2>Bioestimulantes</h2>
+                    <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
+                        mejor
+                        calidad. ¡Únete para resultados sorprendentes!</p>
+                </div>
+            </a>
+            <a href="" class="menu-5">
+                <div class="capa"></div>
+                <div class="menu-1-1">
+                    <h2>Insecticidas</h2>
+                    <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
+                        mejor
+                        calidad. ¡Únete para resultados sorprendentes!</p>
+                </div>
+            </a>
+            <a href="https://teport.github.io/Prueba-Pag/html/herbicidas.html" class="menu-6">
+                <div class="capa"></div>
+                <div class="menu-1-1">
+                    <h2>Herbicidas</h2>
+                    <p>Mejora tus cultivos con nosotros. Nuestro equipo experto garantiza cosechas más abundantes y de
+                        mejor
+                        calidad. ¡Únete para resultados sorprendentes!</p>
+                </div>
+            </a>
+        </div>
+    </section>
+</main>
 
-        abrir.addEventListener("click", () => {
-            nav.classList.add("visible");
-        });
+<script>
+  const nav = document.querySelector("#nav-2");
+  const abrir = document.querySelector("#abrir");
+  const cerrar = document.querySelector("#cerrar");
 
-        cerrar.addEventListener("click", () => {
-            nav.classList.remove("visible");
-        });
-    </script>
+  abrir.addEventListener("click",() => {
+  nav.classList.add("visible");
+  })
+  
+  cerrar.addEventListener("click", () => {
+  nav.classList.remove("visible");
+  })
+</script>
+
+<footer class="pie-pagina">
+  <div class="grupo-1">
+     <div class="box">
+        <figure>
+           <a href="">
+              <img src="../img/favicon.png" alt="">
+          </a>
+        </figure>
+     </div>
+     <div class="box">
+        <h2>Nuestra Identidad</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus velit, quo aut dignissimos nulla porro! Expedita quis tempora eaque?</p>
+     </div>
+     <div class="box">
+        <h2>Contactanos</h2>
+        <div class="red-social">
+           <a href="">Telefono: 493-89-78-874</a>
+           <a href="">Correo: Apb@gmail.com</a>
+        </div>
+     </div>
+  </div>
+  <div class="grupo-2">
+     <small>&copy;2024 <b>CopyRight cin una licencia</b></small>
+  </div>
+</footer>
 </body>
 </html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const container = document.querySelector('.menu');
+        const leftArrow = document.querySelector('.left');
+        const rightArrow = document.querySelector('.right');
+
+        leftArrow.addEventListener('click', function () {
+            container.scrollBy({
+                left: -container.clientWidth,
+                behavior: 'smooth'
+            });
+        });
+
+        rightArrow.addEventListener('click', function () {
+            container.scrollBy({
+                left: container.clientWidth,
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
