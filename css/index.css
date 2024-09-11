@@ -163,11 +163,11 @@ header .fav {
 .whats img{
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    width: 5.5%;
+    max-width: 4rem;
     bottom: 0;
     right: 0;
-    margin: 3.5rem;
-    position: absolute;
+    margin: 2.5rem;
+    position: fixed;
     z-index: 900;
     animation: anima 1s ease-in-out infinite forwards;    
 }
